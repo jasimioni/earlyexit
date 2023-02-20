@@ -9,6 +9,7 @@ import torch.optim as optim
 from torch.utils.data import DataLoader, Dataset, TensorDataset
 import torchvision
 import torchvision.transforms as transforms
+import matplotlib
 
 import os
 import numpy as np

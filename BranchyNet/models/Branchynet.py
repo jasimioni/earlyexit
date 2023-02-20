@@ -1,10 +1,6 @@
 import torch
 import torch.nn as nn
 
-#import numpy as np
-#from scipy.stats import entropy
-
-
 class ConvPoolAc(nn.Module):
     def __init__(self, chanIn, chanOut, kernel=3, stride=1, padding=1, p_ceil_mode=False):
         super(ConvPoolAc, self).__init__()
@@ -90,8 +86,8 @@ class Branchynet(nn.Module):
                 x = bb(x)
                 res = ee(x)
                 if self.exit_criterion_top1(res):
-                    return res
-            return res
+                    return [res, 'ee1']
+            return [res, 'main']
         else:
             return self._forward_training(x)
 
