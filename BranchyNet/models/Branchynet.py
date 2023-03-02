@@ -61,12 +61,7 @@ class Branchynet(nn.Module):
 
         self.exits.append(eeF)
 
-    def exit_criterion(self, x):
-        with torch.no_grad():
-            entr = -torch.sum(pk * torch.log(x))
-            return entr < self.exit_threshold
-
-    def exit_criterion_top1(self, x):
+    def exit_criterion_ee1(self, x):
         with torch.no_grad():
             pk = nn.functional.softmax(x, dim=-1)
             top1 = torch.max(pk)
@@ -85,7 +80,7 @@ class Branchynet(nn.Module):
             for bb, ee in zip(self.backbone, self.exits):
                 x = bb(x)
                 res = ee(x)
-                if self.exit_criterion_top1(res):
+                if self.exit_criterion_ee1(res):
                     return [res, 'ee1']
             return [res, 'main']
         else:

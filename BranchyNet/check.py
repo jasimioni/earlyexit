@@ -29,12 +29,12 @@ except Exception as e:
         print(e)
     exit()
 
-model = Branchynet(exit_threshold=0.7)
+model = Branchynet(exit_threshold=0.999)
 checkpoint = torch.load(path)
 model.load_state_dict(checkpoint['model_state_dict'])
 model.set_fast_inf_mode()
 
-mnist_dl = DataLoader(torchvision.datasets.MNIST('../data/mnist',
+mnist_dl = DataLoader(torchvision.datasets.FashionMNIST('../data/mnist',
                       download=True, train=False, transform=ToTensor()),
                       batch_size=1, drop_last=True, shuffle=False)
 
@@ -44,11 +44,20 @@ count = 0
 for xb, yb in mnist_dl:
     # print(xb)
     output, exit = model(xb)
+
+    pk = nn.functional.softmax(output, dim=-1)
+    top1 = torch.max(pk)    
+    print(f'pk: {pk}')
+    print(f'top1: {top1}')
+
+
     output = output.detach().numpy()[0]
     predicted = max(range(len(output)), key=output.__getitem__)
-    print(f'Predicted: {predicted}, Correct: {yb.item()}, Exit: {exit}')
-    count += 1
-    #if count > 100:
+    result = 'right' if predicted == yb.item() else 'wrong'
+    
+    print(f'Predicted: {predicted}, Correct: {yb.item()}, Result: {result}, Exit: {exit}')
+    #count += 1
+    #if count > 1:
     #    break
 
 

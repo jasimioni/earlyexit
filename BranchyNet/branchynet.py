@@ -35,7 +35,6 @@ def train_backbone(model, train_dl, valid_dl, save_path, epochs=50,
         for xb, yb in train_dl:
             results = model(xb)
             loss = loss_f(results[-1], yb)
-
             opt.zero_grad()
             loss.backward()
             opt.step()
@@ -135,11 +134,11 @@ def pull_mnist_data(batch_size=64):
         transforms.ToTensor()
         ])
 
-    mnist_train_dl = DataLoader( torchvision.datasets.MNIST('../data/mnist',
+    mnist_train_dl = DataLoader( torchvision.datasets.FashionMNIST('../data/mnist',
                                     download=True, train=True, transform=tfs),
                 batch_size=batch_size, drop_last=True, shuffle=True)
 
-    mnist_valid_dl = DataLoader( torchvision.datasets.MNIST('../data/mnist',
+    mnist_valid_dl = DataLoader( torchvision.datasets.FashionMNIST('../data/mnist',
                                     download=True, train=False, transform=tfs),
                 batch_size=batch_size, drop_last=True, shuffle=True)
 
@@ -189,12 +188,12 @@ def main():
     loss_f = nn.CrossEntropyLoss()
     print("Loss function set")
 
-    bb_epochs = 5
-    jt_epochs = 10
+    bb_epochs = 15
+    jt_epochs = 30
     path_str = 'outputs/'
 
     train_joint(model, train_dl, valid_dl, path_str, backbone_epochs=bb_epochs,
-            joint_epochs=jt_epochs, loss_f=loss_f, pretrain_backbone=True)
+            joint_epochs=jt_epochs, loss_f=loss_f, pretrain_backbone=False)
 
 if __name__ == "__main__":
     main()
