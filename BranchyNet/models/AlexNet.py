@@ -11,74 +11,87 @@ class AlexNetWithExistsMNIST(nn.Module):
         self.exits = nn.ModuleList()
         self.exit_threshold = torch.tensor([0.5, 0.7], dtype=torch.float32)
         self.fast_inference_mode = False
+        self.exit_loss_weights = [1.0, 0.5, 0.2]
 
         self.backbone.append(
             nn.Sequential(
-                nn.Conv2d(1, 96, kernel_size=3, stride=1, padding=0), # Changed from 3 to 1 - FashionMNIST
+                nn.Conv2d(1, 96, kernel_size=3, stride=1, padding=0),
                 nn.BatchNorm2d(96),
                 nn.ReLU(),
                 nn.MaxPool2d(kernel_size = 3, stride = 1))
         )
 
-        self.exits.append(
+        self.exits.append(nn.Sequential(
             nn.Sequential(
                 nn.Conv2d(96, 256, kernel_size=3, stride=1, padding=0),
                 nn.BatchNorm2d(256),
                 nn.ReLU(),
-                nn.MaxPool2d(kernel_size = 3, stride = 2),
-                nn.Conv2d(256, 256, kernel_size=3, stride=1, padding=1),
+                nn.MaxPool2d(kernel_size = 3, stride = 2)),
+            
+            nn.Sequential(nn.Conv2d(256, 256, kernel_size=3, stride=1, padding=1),
                 nn.BatchNorm2d(256),
                 nn.ReLU(),
-                nn.MaxPool2d(kernel_size = 3, stride = 2),
-                nn.Linear(4096, num_classes)
-            )
-        )
+                nn.MaxPool2d(kernel_size = 3, stride = 2)),
+            
+            nn.Sequential(
+                nn.Flatten(),
+                nn.Linear(4096, num_classes))
+        ))
 
-        self.backbone.append(
+        self.backbone.append(nn.Sequential(
             nn.Sequential(
                 nn.Conv2d(96, 256, kernel_size=3, stride=1, padding=0),
                 nn.BatchNorm2d(256),
                 nn.ReLU(),
-                nn.MaxPool2d(kernel_size = 3, stride = 2),
+                nn.MaxPool2d(kernel_size = 3, stride = 2)),
+
+            nn.Sequential(
                 nn.Conv2d(256, 384, kernel_size=3, stride=1, padding=1),
                 nn.BatchNorm2d(384),
-                nn.ReLU()
-            )
-        )
+                nn.ReLU())
+        ))
 
-        self.exits.append(
+        self.exits.append(nn.Sequential(
             nn.Sequential(
                 nn.Conv2d(384, 256, kernel_size=3, stride=1, padding=1),
                 nn.BatchNorm2d(256),
                 nn.ReLU(),
-                nn.MaxPool2d(kernel_size = 3, stride = 2),
-                nn.Linear(4096, num_classes)
-            )
-        )
+                nn.MaxPool2d(kernel_size = 3, stride = 2)),
+            
+            nn.Sequential(
+                nn.Flatten(),
+                nn.Linear(4096, num_classes))
+        ))
 
-        self.backbone.append(
+        self.backbone.append(nn.Sequential(
             nn.Sequential(
                 nn.Conv2d(384, 384, kernel_size=3, stride=1, padding=1),
                 nn.BatchNorm2d(384),
-                nn.ReLU(),
+                nn.ReLU()),
+
+            nn.Sequential(
                 nn.Conv2d(384, 256, kernel_size=3, stride=1, padding=1),
                 nn.BatchNorm2d(256),
                 nn.ReLU(),
-                nn.MaxPool2d(kernel_size = 3, stride = 2)
-            )
-        )
+                nn.MaxPool2d(kernel_size = 3, stride = 2))
+        ))
 
-        self.exits.append(
+        self.exits.append(nn.Sequential(
+            nn.Flatten(),
+
             nn.Sequential(
                 nn.Dropout(0.5),
                 nn.Linear(4096, 2048),
-                nn.ReLU(),
+                nn.ReLU()),
+            
+            nn.Sequential(
                 nn.Dropout(0.5),
                 nn.Linear(2048, 2048),
-                nn.ReLU(),
-                nn.Linear(2048, num_classes)
-            )
-        )
+                nn.ReLU()),
+            
+            nn.Sequential(
+                nn.Linear(2048, num_classes))
+        ))
 
     def exit_criterion(self, ee_n, x):
         with torch.no_grad():
@@ -109,8 +122,6 @@ class AlexNetWithExistsMNIST(nn.Module):
         if mode:
             self.eval()
         self.fast_inference_mode = mode        
-
-
 
 class AlexNetMNIST(nn.Module):
     def __init__(self, num_classes=10):
