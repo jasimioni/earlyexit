@@ -285,161 +285,127 @@ class AlexNet(nn.Module):
         out = self.fc2(out)
         return out
 
-
-
-AlexNetCIFAR10Layers = {
-    'backbone' : [
-        nn.Sequential(
-            nn.Conv2d(3, 96, kernel_size=3, stride=1, padding=0),
-            nn.BatchNorm2d(96),
-            nn.ReLU(),
-            nn.MaxPool2d(kernel_size = 3, stride = 2)),
-        
-        nn.Sequential(
+class AlexNetCIFAR10Layers():
+    def __init__(self, num_classes=10):
+        self.backbone = [
             nn.Sequential(
-                nn.Conv2d(96, 256, kernel_size=3, stride=1, padding=2),
-                nn.BatchNorm2d(256),
-                nn.ReLU(),
-                nn.MaxPool2d(kernel_size = 3, stride = 2)),
-            nn.Sequential(
-                nn.Conv2d(256, 384, kernel_size=3, stride=1, padding=1),
-                nn.BatchNorm2d(384),
-                nn.ReLU())),
-        
-        nn.Sequential(
-            nn.Sequential(
-                nn.Conv2d(384, 384, kernel_size=3, stride=1, padding=1),
-                nn.BatchNorm2d(384),
-                nn.ReLU()),
-            nn.Sequential(
-                nn.Conv2d(384, 256, kernel_size=3, stride=1, padding=1),
-                nn.BatchNorm2d(256),
-                nn.ReLU(),
-                nn.MaxPool2d(kernel_size = 3, stride = 2)))
-    ],
-    'exits' : [
-        nn.Sequential(
-            nn.Sequential(
-                nn.Conv2d(96, 256, kernel_size=3, stride=1, padding=0),
-                nn.BatchNorm2d(256),
-                nn.ReLU(),
-                nn.MaxPool2d(kernel_size = 3, stride = 2)),
-            
-            nn.Sequential(nn.Conv2d(256, 256, kernel_size=3, stride=1, padding=1),
-                nn.BatchNorm2d(256),
+                nn.Conv2d(3, 96, kernel_size=3, stride=1, padding=0),
+                nn.BatchNorm2d(96),
                 nn.ReLU(),
                 nn.MaxPool2d(kernel_size = 3, stride = 2)),
             
             nn.Sequential(
-                nn.Flatten(),
-                nn.Linear(1024, num_classes))),
-        
-        nn.Sequential(
+                nn.Sequential(
+                    nn.Conv2d(96, 256, kernel_size=3, stride=1, padding=2),
+                    nn.BatchNorm2d(256),
+                    nn.ReLU(),
+                    nn.MaxPool2d(kernel_size = 3, stride = 2)),
+                nn.Sequential(
+                    nn.Conv2d(256, 384, kernel_size=3, stride=1, padding=1),
+                    nn.BatchNorm2d(384),
+                    nn.ReLU())),
+            
             nn.Sequential(
-                nn.Conv2d(384, 256, kernel_size=3, stride=1, padding=1),
-                nn.BatchNorm2d(256),
-                nn.ReLU(),
-                nn.MaxPool2d(kernel_size = 3, stride = 2)),
-            nn.Sequential(
-                nn.Flatten(),
-                nn.Linear(2304, num_classes))),
+                nn.Sequential(
+                    nn.Conv2d(384, 384, kernel_size=3, stride=1, padding=1),
+                    nn.BatchNorm2d(384),
+                    nn.ReLU()),
+                nn.Sequential(
+                    nn.Conv2d(384, 256, kernel_size=3, stride=1, padding=1),
+                    nn.BatchNorm2d(256),
+                    nn.ReLU(),
+                    nn.MaxPool2d(kernel_size = 3, stride = 2)))
+        ]
 
-        nn.Sequential(
-            nn.Flatten(),
+        self.exits = [
             nn.Sequential(
-                nn.Dropout(0.5),
-                nn.Linear(2304, 1024),
-                nn.ReLU()),
+                nn.Sequential(
+                    nn.Conv2d(96, 256, kernel_size=3, stride=1, padding=0),
+                    nn.BatchNorm2d(256),
+                    nn.ReLU(),
+                    nn.MaxPool2d(kernel_size = 3, stride = 2)),
+                
+                nn.Sequential(nn.Conv2d(256, 256, kernel_size=3, stride=1, padding=1),
+                    nn.BatchNorm2d(256),
+                    nn.ReLU(),
+                    nn.MaxPool2d(kernel_size = 3, stride = 2)),
+                
+                nn.Sequential(
+                    nn.Flatten(),
+                    nn.Linear(1024, num_classes))),
+            
             nn.Sequential(
-                nn.Dropout(0.5),
-                nn.Linear(1024, 1024),
-                nn.ReLU()),
-            nn.Linear(1024, num_classes))
-    ]
-}
+                nn.Sequential(
+                    nn.Conv2d(384, 256, kernel_size=3, stride=1, padding=1),
+                    nn.BatchNorm2d(256),
+                    nn.ReLU(),
+                    nn.MaxPool2d(kernel_size = 3, stride = 2)),
+                nn.Sequential(
+                    nn.Flatten(),
+                    nn.Linear(2304, num_classes))),
+
+            nn.Sequential(
+                nn.Flatten(),
+                nn.Sequential(
+                    nn.Dropout(0.5),
+                    nn.Linear(2304, 1024),
+                    nn.ReLU()),
+                nn.Sequential(
+                    nn.Dropout(0.5),
+                    nn.Linear(1024, 1024),
+                    nn.ReLU()),
+                nn.Linear(1024, num_classes))
+        ]
+
+class AlexNetCIFAR10ee1(nn.Module):
+    def __init__(self, num_classes=10):
+        super().__init__()
+
+        layers = AlexNetCIFAR10Layers(num_classes=num_classes)
+
+        self.backbone = layers.backbone[0]
+        self.exit     = layers.exits[0]
+
+    def forward(self, x):
+        return self.exit(self.backbone(x))
+
+class AlexNetCIFAR10ee2(nn.Module):
+    def __init__(self, num_classes=10):
+        super().__init__()
+
+        layers = AlexNetCIFAR10Layers(num_classes=num_classes)
+
+        self.backbone = nn.Sequential(*layers.backbone[0:2])
+        self.exit     = layers.exits[1]
+
+    def forward(self, x):
+        return self.exit(self.backbone(x))
+
+class AlexNetCIFAR10(nn.Module):
+    def __init__(self, num_classes=10):
+        super().__init__()
+
+        layers = AlexNetCIFAR10Layers(num_classes=num_classes)
+
+        self.backbone = nn.Sequential(*layers.backbone[0:3])
+        self.exit     = layers.exits[2]
+        
+    def forward(self, x):
+        return self.exit(self.backbone(x))
 
 class AlexNetWithExistsCIFAR10(nn.Module):
-    def __init__(self, num_classes=10):
-        super(AlexNetWithExistsCIFAR10, self).__init__()
+    def __init__(self, num_classes=10, exit_loss_weights=[1.0, 0.5, 0.2]):
+        super().__init__()
 
-        self.backbone = nn.ModuleList() 
-        self.exits = nn.ModuleList()
+        layers = AlexNetCIFAR10Layers(num_classes=num_classes)
+
+        self.backbone = nn.Sequential(*layers.backbone)
+        self.exits    = nn.Sequential(*layers.exits)
+
         self.exit_threshold = torch.tensor([0.5, 0.7], dtype=torch.float32)
         self.fast_inference_mode = False
-        self.exit_loss_weights = [1.0, 0.5, 0.2]
+        self.exit_loss_weights = exit_loss_weights
 
-        self.backbone.append(nn.Sequential(
-            nn.Conv2d(3, 96, kernel_size=3, stride=1, padding=0),
-            nn.BatchNorm2d(96),
-            nn.ReLU(),
-            nn.MaxPool2d(kernel_size = 3, stride = 2))
-        )
-
-        self.exits.append(nn.Sequential(
-            nn.Sequential(
-                nn.Conv2d(96, 256, kernel_size=3, stride=1, padding=0),
-                nn.BatchNorm2d(256),
-                nn.ReLU(),
-                nn.MaxPool2d(kernel_size = 3, stride = 2)),
-            
-            nn.Sequential(nn.Conv2d(256, 256, kernel_size=3, stride=1, padding=1),
-                nn.BatchNorm2d(256),
-                nn.ReLU(),
-                nn.MaxPool2d(kernel_size = 3, stride = 2)),
-            
-            nn.Sequential(
-                nn.Flatten(),
-                nn.Linear(1024, num_classes))
-        ))        
-
-        self.backbone.append(nn.Sequential(
-            nn.Sequential(
-                nn.Conv2d(96, 256, kernel_size=3, stride=1, padding=2),
-                nn.BatchNorm2d(256),
-                nn.ReLU(),
-                nn.MaxPool2d(kernel_size = 3, stride = 2)),
-            nn.Sequential(
-                nn.Conv2d(256, 384, kernel_size=3, stride=1, padding=1),
-                nn.BatchNorm2d(384),
-                nn.ReLU())
-        ))
-
-        self.exits.append(nn.Sequential(
-            nn.Sequential(
-                nn.Conv2d(384, 256, kernel_size=3, stride=1, padding=1),
-                nn.BatchNorm2d(256),
-                nn.ReLU(),
-                nn.MaxPool2d(kernel_size = 3, stride = 2)),
-            nn.Sequential(
-                nn.Flatten(),
-                nn.Linear(2304, num_classes))            
-        ))
-
-        self.backbone.append(nn.Sequential(
-            nn.Sequential(
-                nn.Conv2d(384, 384, kernel_size=3, stride=1, padding=1),
-                nn.BatchNorm2d(384),
-                nn.ReLU()),
-            nn.Sequential(
-                nn.Conv2d(384, 256, kernel_size=3, stride=1, padding=1),
-                nn.BatchNorm2d(256),
-                nn.ReLU(),
-                nn.MaxPool2d(kernel_size = 3, stride = 2))
-        ))
-
-        self.exits.append(nn.Sequential(
-            nn.Flatten(),
-            nn.Sequential(
-                nn.Dropout(0.5),
-                nn.Linear(2304, 1024),
-                nn.ReLU()),
-            nn.Sequential(
-                nn.Dropout(0.5),
-                nn.Linear(1024, 1024),
-                nn.ReLU()),
-            nn.Linear(1024, num_classes)
-        ))
-    
     def exit_criterion(self, ee_n, x):
         with torch.no_grad():
             pk = nn.functional.softmax(x, dim=-1)

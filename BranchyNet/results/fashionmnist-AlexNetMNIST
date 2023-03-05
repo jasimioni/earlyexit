@@ -107,4 +107,8 @@ epoch:  4  batch:   81 [ 48600/60000]  loss: 0.29735813  accuracy train:  89.397
 epoch:  4  batch:   91 [ 54600/60000]  loss: 0.24603701  accuracy train:  89.449%
 Accuracy test: 89.30%
 
+
+
+Duration: 162 seconds
+
 Duration: 162 seconds

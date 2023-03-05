@@ -1,7 +1,5 @@
-#training, testing for branchynet-pytorch version
-#testing fit with onnx
-
-from models.AlexNet import AlexNetMNIST
+from models.AlexNet import AlexNetCIFAR10, AlexNetCIFAR10ee1, AlexNetCIFAR10ee2
+from models.Branchynet import Branchynet
 
 import torch
 import torch.nn as nn
@@ -15,4 +13,5 @@ import os
 import numpy as np
 from datetime import datetime as dt
 
-model = AlexNetMNIST()
+model = AlexNetCIFAR10ee1()
+print(model)

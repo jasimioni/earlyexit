@@ -1,0 +1,52 @@
+epoch:  0  batch:    1 [   600/60000]  loss: 2.71526051  accuracy train:   7.833%
+epoch:  0  batch:   11 [  6600/60000]  loss: 1.64533174  accuracy train:  29.409%
+epoch:  0  batch:   21 [ 12600/60000]  loss: 1.50417888  accuracy train:  35.984%
+epoch:  0  batch:   31 [ 18600/60000]  loss: 1.40326810  accuracy train:  39.995%
+epoch:  0  batch:   41 [ 24600/60000]  loss: 1.35896170  accuracy train:  42.825%
+epoch:  0  batch:   51 [ 30600/60000]  loss: 1.22062111  accuracy train:  45.098%
+epoch:  0  batch:   61 [ 36600/60000]  loss: 1.14766788  accuracy train:  47.208%
+epoch:  0  batch:   71 [ 42600/60000]  loss: 1.19555140  accuracy train:  49.014%
+epoch:  0  batch:   81 [ 48600/60000]  loss: 1.00153327  accuracy train:  50.628%
+Loss: 1.07431567 - Accuracy Test: 62.74
+epoch:  1  batch:    1 [   600/60000]  loss: 1.03480971  accuracy train:  64.167%
+epoch:  1  batch:   11 [  6600/60000]  loss: 1.01349556  accuracy train:  63.364%
+epoch:  1  batch:   21 [ 12600/60000]  loss: 0.96801454  accuracy train:  64.278%
+epoch:  1  batch:   31 [ 18600/60000]  loss: 0.95333242  accuracy train:  64.968%
+epoch:  1  batch:   41 [ 24600/60000]  loss: 0.94049531  accuracy train:  65.610%
+epoch:  1  batch:   51 [ 30600/60000]  loss: 0.90721059  accuracy train:  65.984%
+epoch:  1  batch:   61 [ 36600/60000]  loss: 0.78745359  accuracy train:  66.462%
+epoch:  1  batch:   71 [ 42600/60000]  loss: 0.86875039  accuracy train:  66.761%
+epoch:  1  batch:   81 [ 48600/60000]  loss: 0.84624696  accuracy train:  67.272%
+Loss: 0.90223753 - Accuracy Test: 69.23
+epoch:  2  batch:    1 [   600/60000]  loss: 0.78005940  accuracy train:  73.333%
+epoch:  2  batch:   11 [  6600/60000]  loss: 0.76702458  accuracy train:  72.197%
+epoch:  2  batch:   21 [ 12600/60000]  loss: 0.75702119  accuracy train:  73.159%
+epoch:  2  batch:   31 [ 18600/60000]  loss: 0.73950398  accuracy train:  73.505%
+epoch:  2  batch:   41 [ 24600/60000]  loss: 0.81520867  accuracy train:  73.374%
+epoch:  2  batch:   51 [ 30600/60000]  loss: 0.77696520  accuracy train:  73.448%
+epoch:  2  batch:   61 [ 36600/60000]  loss: 0.75990045  accuracy train:  73.623%
+epoch:  2  batch:   71 [ 42600/60000]  loss: 0.79403913  accuracy train:  73.709%
+epoch:  2  batch:   81 [ 48600/60000]  loss: 0.77953786  accuracy train:  73.835%
+Loss: 0.80934477 - Accuracy Test: 72.93
+epoch:  3  batch:    1 [   600/60000]  loss: 0.66810763  accuracy train:  77.500%
+epoch:  3  batch:   11 [  6600/60000]  loss: 0.62528986  accuracy train:  78.121%
+epoch:  3  batch:   21 [ 12600/60000]  loss: 0.70504916  accuracy train:  78.294%
+epoch:  3  batch:   31 [ 18600/60000]  loss: 0.68554598  accuracy train:  78.344%
+epoch:  3  batch:   41 [ 24600/60000]  loss: 0.57007092  accuracy train:  78.163%
+epoch:  3  batch:   51 [ 30600/60000]  loss: 0.64078665  accuracy train:  78.232%
+epoch:  3  batch:   61 [ 36600/60000]  loss: 0.64007682  accuracy train:  78.194%
+epoch:  3  batch:   71 [ 42600/60000]  loss: 0.67837137  accuracy train:  78.204%
+epoch:  3  batch:   81 [ 48600/60000]  loss: 0.59050858  accuracy train:  78.333%
+Loss: 0.69284177 - Accuracy Test: 75.03
+epoch:  4  batch:    1 [   600/60000]  loss: 0.56766677  accuracy train:  80.833%
+epoch:  4  batch:   11 [  6600/60000]  loss: 0.58970988  accuracy train:  80.803%
+epoch:  4  batch:   21 [ 12600/60000]  loss: 0.54223633  accuracy train:  81.444%
+epoch:  4  batch:   31 [ 18600/60000]  loss: 0.51337695  accuracy train:  81.452%
+epoch:  4  batch:   41 [ 24600/60000]  loss: 0.56120211  accuracy train:  81.114%
+epoch:  4  batch:   51 [ 30600/60000]  loss: 0.53100711  accuracy train:  81.036%
+epoch:  4  batch:   61 [ 36600/60000]  loss: 0.48788926  accuracy train:  80.831%
+epoch:  4  batch:   71 [ 42600/60000]  loss: 0.66365528  accuracy train:  80.822%
+epoch:  4  batch:   81 [ 48600/60000]  loss: 0.53619260  accuracy train:  80.842%
+Loss: 0.68197966 - Accuracy Test: 76.04
+
+Duration: 35 seconds
