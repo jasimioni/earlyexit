@@ -2,6 +2,7 @@
 
 import torch
 import torch.nn as nn
+import time
 
 # Adjusted for MNIST
 class AlexNetWithExistsMNIST(nn.Module):
@@ -404,6 +405,7 @@ class AlexNetWithExistsCIFAR10(nn.Module):
 
         self.exit_threshold = torch.tensor([0.5, 0.7], dtype=torch.float32)
         self.fast_inference_mode = False
+        self.measurement_mode = False
         self.exit_loss_weights = exit_loss_weights
 
     def exit_criterion(self, ee_n, x):
@@ -412,27 +414,51 @@ class AlexNetWithExistsCIFAR10(nn.Module):
             nc = torch.max(pk)
             return nc > self.exit_threshold[ee_n]
 
-    @torch.jit.unused #decorator to skip jit comp
-    def _forward_training(self, x):
-        res = []
+    def _forward_all_exits(self, x):
+        results = []
         for bb, ee in zip(self.backbone, self.exits):
-            x = bb(x)
-            res.append(ee(x))
-        return res
+            if self.measurement_mode:
+                st = time.process_time()
+                x = bb(x)
+                im = time.process_time()
+                res = ee(x)
+                ed = time.process_time()
+                results.append([ res, im - st, ed - im ])
+            else:
+                x = bb(x)
+                results.append(ee(x))
+
+        return results
 
     def forward(self, x):
         if self.fast_inference_mode:
             for ee_n, (bb, ee) in enumerate(zip(self.backbone, self.exits)):
                 x = bb(x)
                 res = ee(x)
-                if self.exit_criterion(ee_n, x):
+                if self.exit_criterion(ee_n, res):
                     return [res, 'ee' + ee_n]
             return [res, 'main']
-        else:
-            return self._forward_training(x)
+
+        return self._forward_all_exits(x)
+
+    def exits_certainty(self, x):
+        results = []
+        for ee_n, (bb, ee) in enumerate(zip(self.backbone, self.exits)):
+            x = bb(x)
+            res = ee(x)
+            certainty, predicted = torch.max(nn.functional.softmax(res, dim=-1), 1)
+            results.append([ certainty.item(), predicted.item() ])
+        return results
 
     def set_fast_inference_mode(self, mode=True):
         if mode:
             self.eval()
         self.fast_inference_mode = mode
+
+    def set_measurement_mode(self, mode=True):
+        if mode:
+            self.eval()
+        self.measurement_mode = mode
+      
+
         

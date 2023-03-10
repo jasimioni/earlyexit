@@ -1,10 +1,25 @@
 import torch
 import torch.nn as nn
 
-def show_exits_stats(model, criterion, test_loader, device='cpu'):
+def show_exits_stats(model, test_loader, criterion=nn.CrossEntropyLoss(), device='cpu'):
+    fast_inference_mode = model.fast_inference_mode
+    measurement_mode = model.measurement_mode
+    model.set_fast_inference_mode(False)
+    model.set_measurement_mode(True)
     tst_cnt = 0
     tst_cor = [ 0 for exit in model.exits ]
+    total_times = [ [ 0, 0 ] for exit in model.exits ]
+    losses = [ 0 for exit in model.exits ]
+
+    model.eval()
+
     with torch.no_grad():
+        # Run one batch to make sure the computations of first evaluation don't generate trouble        
+        for (X_test, y_test) in test_loader:
+            X_test = X_test.to(device)
+            model(X_test)
+            break
+
         for b, (X_test, y_test) in enumerate(test_loader):
             X_test = X_test.to(device)
             y_test = y_test.to(device)
@@ -12,27 +27,51 @@ def show_exits_stats(model, criterion, test_loader, device='cpu'):
             y_val = model(X_test)
 
             for exit, y_val_exit in enumerate(y_val):
-                predicted = torch.max(y_val_exit.data, 1)[1]
+                predicted = torch.max(y_val_exit[0].data, 1)[1]
                 batch_corr = (predicted == y_test).sum()
                 tst_cor[exit] += batch_corr            
-            
+
+                total_times[exit][0] += y_val_exit[1]
+                total_times[exit][1] += y_val_exit[2]
+
+                losses[exit] += len(predicted) * criterion(y_val_exit[0], y_test).item()
+
             tst_cnt += len(predicted)
                                 
-    losses = [ f'{criterion(y_val_exit, y_test).item():10.8f}' for y_val_exit in y_val ]
     accs   = [ f'{100*tst_cor_exit/tst_cnt:2.2f}%' for tst_cor_exit in tst_cor ]
+    times  = [ [ f'{1000*time[0]:.2f}ms', f'{1000*time[1]:.2f}ms' ] for time in total_times ]
+    avg_losses = [ f'{loss/tst_cnt:2.2f}' for loss in losses ]
     
-    print(f"\nLoss: {losses} - Accuracy Test: {accs}\n")
+    print(f"\nTests: {tst_cnt} | Loss: {avg_losses} | Accuracy Test: {accs} | Times: {times}\n")
+    model.set_fast_inference_mode(fast_inference_mode)
+    model.set_measurement_mode(measurement_mode)
 
-def train_exit(model, exit, train_loader=None, test_loader=None, lr=0.001, epochs=5, device='cpu'):
+# train_exit:
+# Train only one exit (only it's ouput is applied to .backward)
+# backbone_parameters can be used.
+# path: means all backbone until the exit is added in the parameters list of the optimizer
+# section: means only the backbone section associated to the exit is added
+# none: backbone parameters are not added to the parameters list
+# 
+# train_exit with last exit and backbone_parameters='path' is the same as pre-train backbone
+
+def train_exit(model, exit, train_loader=None, test_loader=None, lr=0.001, epochs=5, 
+               device='cpu', criterion=nn.CrossEntropyLoss(), optimizer=torch.optim.Adam, 
+               backbone_parameters='path'):
+
     exit_params = []
 
-    for bb in model.backbone[0:exit+1]:
-        exit_params.append({'params': bb.parameters()})
+    if backbone_parameters == 'path':
+        for bb in model.backbone[0:exit+1]:
+            exit_params.append({'params': bb.parameters()})
+    elif backbone_parameters == 'section':
+        exit_params.append({'params': model.backbone[exit].parameters()}) 
 
     exit_params.append({'params': model.exits[exit].parameters()})
 
-    criterion = nn.CrossEntropyLoss()
-    optimizer = torch.optim.Adam(exit_params, lr=lr)
+    optimizer = optimizer(exit_params, lr=lr)
+
+    print(f"Training exit {exit} with backbone_parameters={backbone_parameters} - Sections: {len(exit_params)}")
 
     import time
     start_time = time.time()
@@ -63,13 +102,20 @@ def train_exit(model, exit, train_loader=None, test_loader=None, lr=0.001, epoch
             if (b-1)%10 == 0:
                 print(f'Epoch: {i:2} Batch: {b:3} Loss: {loss.item():4.4f} Accuracy Train: {trn_cor.item()*100/trn_cnt:2.3f}%')
             
-        show_exits_stats(model, criterion, test_loader, device)
+        show_exits_stats(model, test_loader, criterion, device)
             
     print(f'\nDuration: {time.time() - start_time:.0f} seconds')
 
-def train_model(model, train_loader=None, test_loader=None, lr=0.001, epochs=5, device='cpu'):
-    criterion = nn.CrossEntropyLoss()
-    optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
+
+# train_model:
+# This function trains all exits at once. It does that by applying .backward to each exit value
+# The .backward is applyed one exit at a time, beginning with the nearest one
+# Loss value from each exit is multiplied by a weight factor defined in the model (exit_loss_weights)
+
+def train_model(model, train_loader=None, test_loader=None, lr=0.001, epochs=5, 
+                device='cpu', criterion=nn.CrossEntropyLoss(), optimizer=torch.optim.Adam):
+
+    optimizer = optimizer(model.parameters(), lr=lr)
 
     import time
     start_time = time.time()
@@ -106,6 +152,6 @@ def train_model(model, train_loader=None, test_loader=None, lr=0.001, epochs=5, 
                 accu_string = [ f'{correct.item()*100/trn_cnt:2.3}%' for correct in trn_cor ]
                 print(f'Epoch: {i:2} Batch: {b:3} Loss: {loss_string} Accuracy Train: {accu_string}%')
             
-        show_exits_stats(model, criterion, test_loader, device)
+        show_exits_stats(model, test_loader, criterion, device)
             
     print(f'\nDuration: {time.time() - start_time:.0f} seconds')
