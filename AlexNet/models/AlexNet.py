@@ -452,12 +452,14 @@ class AlexNetWithExistsCIFAR10(nn.Module):
 
     def set_fast_inference_mode(self, mode=True):
         if mode:
-            self.eval()
+            pass
+            # self.eval()
         self.fast_inference_mode = mode
 
     def set_measurement_mode(self, mode=True):
         if mode:
-            self.eval()
+            pass 
+            # self.eval()
         self.measurement_mode = mode
       
 

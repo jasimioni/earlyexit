@@ -1,6 +1,31 @@
 import torch
 import torch.nn as nn
 
+# CrossEntropyConfidence
+# Custom Loss Function adding a weight according to softmax
+
+class CrossEntropyConfidence(nn.Module):
+    def __init__(self, device):
+        super().__init__()
+        self.device = device
+
+    def forward(self, output, target):
+        target = torch.tensor(target, dtype=torch.int64, device=self.device)
+        criterion = nn.CrossEntropyLoss().to(self.device)
+
+        #print(f'For this batch: {output.shape} and {target.shape}')
+        #print(f'{output[0]} and {target[0]}')
+        cnf = torch.mean(torch.max(nn.functional.softmax(output, dim=-1), 1)[0]).item()
+        loss = criterion(output, target)
+
+        # print(f'CNF: {cnf} - Loss: {loss}')
+
+        return loss - cnf
+
+
+# show_exits_status
+# Show the accuracy, timing and loss of the model for each exit, using the test datase
+
 def show_exits_stats(model, test_loader, criterion=nn.CrossEntropyLoss(), device='cpu'):
     fast_inference_mode = model.fast_inference_mode
     measurement_mode = model.measurement_mode
@@ -11,7 +36,7 @@ def show_exits_stats(model, test_loader, criterion=nn.CrossEntropyLoss(), device
     total_times = [ [ 0, 0 ] for exit in model.exits ]
     losses = [ 0 for exit in model.exits ]
 
-    model.eval()
+    # model.eval()
 
     with torch.no_grad():
         # Run one batch to make sure the computations of first evaluation don't generate trouble        

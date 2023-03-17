@@ -44,7 +44,8 @@ if args.load is not None:
 
 
 # Pre treinar backbone
-# train_exit(model, 2, train_loader=train_loader, test_loader=test_loader, device=device, backbone_parameters='path', epochs=5)
+#train_exit(model, 2, train_loader=train_loader, test_loader=test_loader, device=device, 
+#           backbone_parameters='path', epochs=5, criterion=CrossEntropyConfidence(device))
 
 '''
 # Opcao de treinar cada seção individualmente
@@ -58,7 +59,7 @@ show_exits_stats(model, test_loader, device=device)
 '''
 
 # Treinar todas as saidas juntas
-# train_model(model, train_loader=train_loader, test_loader=test_loader, device=device, epochs=5)
+train_model(model, train_loader=train_loader, test_loader=test_loader, device=device, epochs=5, criterion=CrossEntropyConfidence(device))
 
 # Treinar só a saída 0
 # train_exit(model, 0, train_loader=train_loader, test_loader=test_loader, device=device, backbone_parameters='none', epochs=5)
@@ -70,13 +71,13 @@ show_exits_stats(model, test_loader, device=device)
 # train_exit(model, 2, train_loader=train_loader, test_loader=test_loader, device=device, backbone_parameters='none', epochs=5)
 
 # Treinar só a saída 0
-train_exit(model, 0, train_loader=train_loader, test_loader=test_loader, device=device, backbone_parameters='section', epochs=5)
+# train_exit(model, 0, train_loader=train_loader, test_loader=test_loader, device=device, backbone_parameters='section', epochs=5)
 
 # Treinar só a saída 1
-train_exit(model, 1, train_loader=train_loader, test_loader=test_loader, device=device, backbone_parameters='section', epochs=5)
+# train_exit(model, 1, train_loader=train_loader, test_loader=test_loader, device=device, backbone_parameters='section', epochs=5)
 
 # Treinar só a saída 2
-train_exit(model, 2, train_loader=train_loader, test_loader=test_loader, device=device, backbone_parameters='section', epochs=5)
+# train_exit(model, 2, train_loader=train_loader, test_loader=test_loader, device=device, backbone_parameters='section', epochs=5)
 
 
 show_exits_stats(model, test_loader, device=device)
