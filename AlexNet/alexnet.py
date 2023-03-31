@@ -4,6 +4,8 @@ import argparse
 
 from models.AlexNet import AlexNetWithExistsCIFAR10
 from utils.functions import *
+from datetime import datetime
+from torch.utils.tensorboard import SummaryWriter
 
 import torch
 import torch.nn as nn
@@ -12,6 +14,8 @@ from torch.utils.data import DataLoader, Dataset, TensorDataset
 from torchvision import datasets, transforms
 import torchvision
 import matplotlib
+
+import torch
 
 import os
 import numpy as np
@@ -59,7 +63,8 @@ show_exits_stats(model, test_loader, device=device)
 '''
 
 # Treinar todas as saidas juntas
-train_model(model, train_loader=train_loader, test_loader=test_loader, device=device, epochs=5, criterion=CrossEntropyConfidence(device))
+# train_model(model, train_loader=train_loader, test_loader=test_loader, device=device, epochs=5, criterion=CrossEntropyConfidence(device))
+# train_model(model, train_loader=train_loader, test_loader=test_loader, device=device, epochs=5, criterion=nn.CrossEntropyLoss())
 
 # Treinar só a saída 0
 # train_exit(model, 0, train_loader=train_loader, test_loader=test_loader, device=device, backbone_parameters='none', epochs=5)
@@ -79,13 +84,37 @@ train_model(model, train_loader=train_loader, test_loader=test_loader, device=de
 # Treinar só a saída 2
 # train_exit(model, 2, train_loader=train_loader, test_loader=test_loader, device=device, backbone_parameters='section', epochs=5)
 
+dt_string = datetime.now().strftime("%Y-%m-%d-%H-%M-%S")
 
-show_exits_stats(model, test_loader, device=device)
+epochs = 20
+criterion_name = 'custom'
+train_strategy = 'backbone_all'
 
-for i, (X, y) in enumerate(test_data):
-    X = X.to(device)
-    x = X.view(1,3,32,32)
-    print(f"Correct: {y} - {model.exits_certainty(x)}")
+if criterion_name == 'custom':
+    criterion=CrossEntropyConfidence(device)
+else:
+    criterion_name = 'cross_entropy'
+    criterion=nn.CrossEntropyLoss()
+
+set_writer(f'runs/{train_strategy}_{criterion_name}_{dt_string}')
+
+if train_strategy == 'e0_e1_e2_all':
+    train_exit(model, 0, train_loader=train_loader, test_loader=test_loader, device=device, backbone_parameters='section', epochs=epochs, criterion=criterion)
+    train_exit(model, 1, train_loader=train_loader, test_loader=test_loader, device=device, backbone_parameters='section', epochs=epochs, criterion=criterion)
+    train_exit(model, 2, train_loader=train_loader, test_loader=test_loader, device=device, backbone_parameters='section', epochs=epochs, criterion=criterion)
+    train_model(model, train_loader=train_loader, test_loader=test_loader, device=device, epochs=epochs, criterion=criterion)
+elif train_strategy == 'all':
+    train_model(model, train_loader=train_loader, test_loader=test_loader, device=device, epochs=epochs, criterion=criterion)
+elif train_strategy == 'backbone_all':
+    train_exit(model, 2, train_loader=train_loader, test_loader=test_loader, device=device, backbone_parameters='path', epochs=epochs, criterion=criterion)
+    train_model(model, train_loader=train_loader, test_loader=test_loader, device=device, epochs=epochs, criterion=criterion)
+
+# show_exits_stats(model, test_loader, device=device)
+
+# for i, (X, y) in enumerate(test_data):
+#     X = X.to(device)
+#     x = X.view(1,3,32,32)
+#     print(f"Correct: {y} - {model.exits_certainty(x)}")
 
 if args.save is not None:
     save_dict = { 

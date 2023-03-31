@@ -2,3 +2,5 @@ __pycache__/
 /data/
 outputs/
 .DS_Store
+runs/
+old_runs/

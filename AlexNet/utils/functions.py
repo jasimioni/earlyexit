@@ -1,9 +1,17 @@
 import torch
 import torch.nn as nn
 
-# CrossEntropyConfidence
-# Custom Loss Function adding a weight according to softmax
+from torch.utils.tensorboard import SummaryWriter
+writer = None
+stats_seq_cnt = 0
 
+
+def set_writer(path):
+    global writer
+    writer = SummaryWriter(log_dir=path)
+
+# CrossEntropyConfidence:
+# Custom Loss Function adding a weight according to softmax
 class CrossEntropyConfidence(nn.Module):
     def __init__(self, device):
         super().__init__()
@@ -18,15 +26,18 @@ class CrossEntropyConfidence(nn.Module):
         cnf = torch.mean(torch.max(nn.functional.softmax(output, dim=-1), 1)[0]).item()
         loss = criterion(output, target)
 
-        # print(f'CNF: {cnf} - Loss: {loss}')
+        adjusted_loss = loss + loss * (1 - cnf)
 
-        return loss - cnf
+        print(f'CNF: {cnf} - Loss: {loss} - Adjusted Loss: {adjusted_loss}')
 
+        return adjusted_loss
 
-# show_exits_status
+# show_exits_stats:
 # Show the accuracy, timing and loss of the model for each exit, using the test datase
 
 def show_exits_stats(model, test_loader, criterion=nn.CrossEntropyLoss(), device='cpu'):
+    global stats_seq_cnt
+
     fast_inference_mode = model.fast_inference_mode
     measurement_mode = model.measurement_mode
     model.set_fast_inference_mode(False)
@@ -35,6 +46,7 @@ def show_exits_stats(model, test_loader, criterion=nn.CrossEntropyLoss(), device
     tst_cor = [ 0 for exit in model.exits ]
     total_times = [ [ 0, 0 ] for exit in model.exits ]
     losses = [ 0 for exit in model.exits ]
+    cnfs = [ 0 for exit in model.exits ]
 
     # model.eval()
 
@@ -59,15 +71,31 @@ def show_exits_stats(model, test_loader, criterion=nn.CrossEntropyLoss(), device
                 total_times[exit][0] += y_val_exit[1]
                 total_times[exit][1] += y_val_exit[2]
 
+                cnfs[exit] += len(predicted) * torch.mean(torch.max(nn.functional.softmax(y_val_exit[0], dim=-1), 1)[0]).item()
                 losses[exit] += len(predicted) * criterion(y_val_exit[0], y_test).item()
 
             tst_cnt += len(predicted)
                                 
-    accs   = [ f'{100*tst_cor_exit/tst_cnt:2.2f}%' for tst_cor_exit in tst_cor ]
+    accs   = [ 100*tst_cor_exit/tst_cnt for tst_cor_exit in tst_cor ]
     times  = [ [ f'{1000*time[0]:.2f}ms', f'{1000*time[1]:.2f}ms' ] for time in total_times ]
-    avg_losses = [ f'{loss/tst_cnt:2.2f}' for loss in losses ]
+    avg_losses = [ loss/tst_cnt for loss in losses ]
+    avg_cnfs = [ f'{cnf/tst_cnt:2.2f}' for cnf in cnfs ]
+
+    for exit, acc in enumerate(accs):
+        writer.add_scalar(f'Accuracy/test exit {exit}', acc, stats_seq_cnt)
     
-    print(f"\nTests: {tst_cnt} | Loss: {avg_losses} | Accuracy Test: {accs} | Times: {times}\n")
+    for exit, loss in enumerate(avg_losses):
+        writer.add_scalar(f'Loss/test exit {exit}', loss, stats_seq_cnt)
+
+    for exit, cnf in enumerate(cnfs):
+        writer.add_scalar(f'CNF/test exit {exit}', cnf/tst_cnt, stats_seq_cnt)
+
+    stats_seq_cnt += 1
+
+    loss = ' '.join(f'{loss:2.2f}' for loss in avg_losses)
+    acc = ' '.join(f'{acc:2.2f}' for acc in accs)
+
+    print(f"\nTests: {tst_cnt} | Loss: {loss} | Accuracy Test: {acc} | Times: {times} | CNFs: {avg_cnfs}\n")
     model.set_fast_inference_mode(fast_inference_mode)
     model.set_measurement_mode(measurement_mode)
 
@@ -101,6 +129,7 @@ def train_exit(model, exit, train_loader=None, test_loader=None, lr=0.001, epoch
     import time
     start_time = time.time()
 
+    seq = 0
     for i in range(epochs):
         trn_cor = 0
         trn_cnt = 0
@@ -114,11 +143,15 @@ def train_exit(model, exit, train_loader=None, test_loader=None, lr=0.001, epoch
             
             y_pred = model(X_train)[exit] 
             loss = criterion(y_pred, y_train)
+
+            writer.add_scalar(f"Loss/train exit {exit}", loss, seq)
     
             predicted = torch.max(y_pred.data, 1)[1]
             batch_cor = (predicted == y_train).sum()
             trn_cor += batch_cor
             trn_cnt += len(predicted)
+
+            cnf = torch.mean(torch.max(nn.functional.softmax(y_pred, dim=-1), 1)[0]).item()
             
             optimizer.zero_grad()
             loss.backward()
@@ -127,6 +160,10 @@ def train_exit(model, exit, train_loader=None, test_loader=None, lr=0.001, epoch
             if (b-1)%10 == 0:
                 print(f'Epoch: {i:2} Batch: {b:3} Loss: {loss.item():4.4f} Accuracy Train: {trn_cor.item()*100/trn_cnt:2.3f}%')
             
+            writer.add_scalar(f"Accuracy/train exit {exit}", trn_cor.item()*100/trn_cnt, seq)
+            writer.add_scalar(f"CNF/train exit {exit}", cnf, seq)
+            seq += 1
+
         show_exits_stats(model, test_loader, criterion, device)
             
     print(f'\nDuration: {time.time() - start_time:.0f} seconds')
@@ -145,8 +182,10 @@ def train_model(model, train_loader=None, test_loader=None, lr=0.001, epochs=5,
     import time
     start_time = time.time()
 
+    seq = 0
     for i in range(epochs):
         trn_cor = [0, 0, 0]
+        cnf = [0, 0, 0]
         trn_cnt = 0
         
         # Run the training batches
@@ -158,7 +197,10 @@ def train_model(model, train_loader=None, test_loader=None, lr=0.001, epochs=5,
             y_pred = model(X_train)  
                 
             losses = [weighting * criterion(res, y_train) for weighting, res in zip(model.exit_loss_weights, y_pred)]
-            
+
+            for exit, loss in enumerate(losses):
+                writer.add_scalar(f"Loss/train multiple exit {exit}", loss, seq)
+
             optimizer.zero_grad()        
             for loss in losses[:-1]:
                 loss.backward(retain_graph=True)
@@ -167,16 +209,23 @@ def train_model(model, train_loader=None, test_loader=None, lr=0.001, epochs=5,
             
             for exit, y_pred_exit in enumerate(y_pred):   
                 predicted = torch.max(y_pred_exit.data, 1)[1]
+                cnf = torch.mean(torch.max(nn.functional.softmax(y_pred_exit, dim=-1), 1)[0]).item()
+                writer.add_scalar(f"CNF/train multiple exit {exit}", cnf, seq)
                 batch_corr = (predicted == y_train).sum()
                 trn_cor[exit] += batch_corr
                     
             trn_cnt += len(predicted)
+
+            for exit, correct in enumerate(trn_cor):
+                writer.add_scalar(f"Accuracy/train multiple exit {exit}", correct.item()*100/trn_cnt, seq)
             
             if (b-1)%10 == 0:
                 loss_string = [ f'{loss.item():4.4f}' for loss in losses ]
                 accu_string = [ f'{correct.item()*100/trn_cnt:2.3}%' for correct in trn_cor ]
                 print(f'Epoch: {i:2} Batch: {b:3} Loss: {loss_string} Accuracy Train: {accu_string}%')
-            
+
+            seq += 1
+        
         show_exits_stats(model, test_loader, criterion, device)
             
     print(f'\nDuration: {time.time() - start_time:.0f} seconds')
