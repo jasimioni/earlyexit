@@ -1,8 +1,0 @@
-name: earlyexit
-channels:
-  - defaults
-dependencies:
-  - requests
-  - matplotlib
-  - pytorch
-  - torchvision

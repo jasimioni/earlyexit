@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 
 import argparse
+import sys
+sys.path.append('..')
 
-from models.AlexNet import AlexNetWithExistsCIFAR10
+from models.AlexNet import AlexNetWithExitsCIFAR10
 from utils.functions import *
 from datetime import datetime
 from torch.utils.tensorboard import SummaryWriter
@@ -40,7 +42,7 @@ test_data    = datasets.CIFAR10(root='../data', train=False, download=True, tran
 train_loader = DataLoader(train_data, batch_size=batch_size, shuffle=True)
 test_loader  = DataLoader(test_data, batch_size=batch_size, shuffle=False)
 
-model = AlexNetWithExistsCIFAR10(exit_loss_weights=[1, 0.5, 0.2]).to(device)
+model = AlexNetWithExitsCIFAR10(exit_loss_weights=[1, 0.5, 0.2]).to(device)
 
 if args.load is not None:
     checkpoint = torch.load(args.load)
