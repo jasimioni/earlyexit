@@ -3,6 +3,7 @@
 import argparse
 import sys
 sys.path.append('..')
+import json
 
 from itertools import chain
 
@@ -38,8 +39,8 @@ transform = transforms.ToTensor()
 # model = JoaoNetCIFAR10().to(device)
 # checkpoint = torch.load('saves/JoaoNetCIFAR10_CrossEntropy_2023-04-06')
 model = JoaoNetWithExitsCIFAR10().to(device)
-# checkpoint = torch.load('saves/JoaoNetWithExitsCIFAR10_all_CrossEntropy_2023-04-06')
-checkpoint = torch.load('saves/JoaoNetWithExitsCIFAR10_all_ConfidenceOnCorrect_2023-04-06')
+checkpoint = torch.load('saves/JoaoNetWithExitsCIFAR10_all_CrossEntropy_2023-04-06')
+# checkpoint = torch.load('saves/JoaoNetWithExitsCIFAR10_all_ConfidenceOnCorrect_2023-04-06')
 model.load_state_dict(checkpoint['model_state_dict'])
 
 batch_size = 600
@@ -49,7 +50,8 @@ test_data    = datasets.CIFAR10(root='../data', train=False, download=True, tran
 train_loader = DataLoader(train_data, batch_size=batch_size, shuffle=True)
 test_loader  = DataLoader(test_data, batch_size=batch_size, shuffle=False)
 
-thresholds = [ 0.5, 0.5, 0 ]
+
+thresholds = [ 0.8, 0.8, 0 ]
 
 model.eval()
 with torch.no_grad():
@@ -63,21 +65,22 @@ with torch.no_grad():
         correct = [0, 0, 0]
         correct_exit = [0, 0, 0]
         chosen_exit  = [0, 0, 0]
+        progression = {}
         for i, (X, y) in enumerate(chain(train_loader, test_loader)):
             X = X.to(device)
             y = y.to(device)
-   
+
             results = model(X)
             c_results = []
                         
             for exit, result in enumerate(results):
                 times['bb'][exit] += result[1] * len(result[0])
                 times['ex'][exit] += result[2] * len(result[0])
-               
+            
                 cnf, predicted = torch.max(nn.functional.softmax(result[0], dim=-1), 1)
                 
                 c_results.append([cnf, predicted])
-                          
+                        
                 correct[exit] += (predicted == y).sum()
                 
             for i in range(len(y)):
@@ -87,6 +90,25 @@ with torch.no_grad():
                         if res[1][i] == y[i]:
                             correct_exit[exit] += 1
                         break
+            '''
+            # Progression check
+            for threshold in range(50, 96):
+                threshold = threshold / 100
+                print(f'Processing threshold {threshold}')
+                l_thresholds = [ threshold, threshold, 0 ]
+                if threshold not in progression:
+                    progression[threshold] = { 
+                        'chosen_exit'  : [0, 0, 0], 
+                        'correct_exit' : [0, 0, 0] 
+                    }
+                for i in range(len(y)):
+                    for exit, res in enumerate(c_results):
+                        if res[0][i] > l_thresholds[exit]:
+                            progression[threshold]['chosen_exit'][exit] += 1
+                            if res[1][i] == y[i]:
+                                progression[threshold]['correct_exit'][exit] += 1
+                            break
+            '''
             
             total += len(y)
             
@@ -112,11 +134,13 @@ with torch.no_grad():
         print(f'Accuracy per exit (when chosen): {exit_accuracy}')
         print(f'Overall Accuracy: {100 * sum(correct_exit)/total:.2f}%')        
         print(f'Mean time: {1000 * t_mean_time:.4f} ms')
+
+        print(json.dumps(progression, indent=2))
     else:
         total = 0
         correct = 0
         time_total = 0
-   
+
         for i, (X, y) in enumerate(chain(train_loader, test_loader)):
             X = X.to(device)
             y = y.to(device)
