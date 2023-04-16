@@ -1,6 +1,10 @@
 import torch
 import torch.nn as nn
 import sys
+from torch.utils.data import Dataset
+from torch.utils.data import DataLoader
+from pathlib import Path
+import pandas as pd
 
 from torch.utils.tensorboard import SummaryWriter
 writer = None
@@ -14,7 +18,31 @@ def draw_model(model, data):
     global writer
     writer.add_graph(model, data)
 
+class CustomMawiDataset(Dataset):
+    def __init__(self, year='2019', month='XX'):
+        files = Path(f'../../datasets/balanced/{year}/VIEGAS/{month}').iterdir()
 
+        df = pd.DataFrame()
+
+        for file in files:
+            temp = pd.read_csv(file)
+            df = pd.concat([df, temp])
+
+        self.df_labels = df[['class']]
+
+        self.df = df.drop(columns=['MAWILAB_taxonomy', 'MAWILAB_distance', 'MAWILAB_nbDetectors', 'MAWILAB_label', 'class'])
+
+        self.dataset = torch.tensor(self.df.to_numpy()).float()
+        self.labels = torch.tensor(self.df_labels.to_numpy().reshape(-1)).long()
+        
+        print(self.dataset.shape)
+        print(self.labels.shape)
+    
+    def __len__(self):
+        return len(self.dataset)
+    
+    def __getitem__(self, idx):
+        return self.dataset[idx], self.labels[idx]
 
 # ConfidenceOnCorrect:
 # Custom Loss Function to consider only confidence on correct answer
@@ -83,6 +111,7 @@ class CrossEntropyConfidence(nn.Module):
 # Show the accuracy, timing and loss of the model for each exit, using the test datase
 
 def show_exits_stats(model, test_loader, criterion=nn.CrossEntropyLoss(), device='cpu'):
+    return 
     global stats_seq_cnt
 
     fast_inference_mode = model.fast_inference_mode
