@@ -4,7 +4,7 @@ import argparse
 import sys
 sys.path.append('..')
 
-from models.MawiNet import *
+from models.AlexNet import *
 from utils.functions import *
 from datetime import datetime
 from torch.utils.tensorboard import SummaryWriter
@@ -37,9 +37,9 @@ print(device)
 train_data   = CustomMawiDataset(year='2019', month='01', as_matrix=False)
 test_data    = CustomMawiDataset(year='2019', month='01', as_matrix=False)
 
-model = MawiNetFlat().to(device)
+model = AlexNetMawi().to(device)
 
-# summary(model, (1, 1, 7, 7))
+summary(model, (1, 48))
 summary(model)
 print(model)
 
@@ -47,8 +47,8 @@ dt_string = datetime.now().strftime("%Y-%m-%d-%H-%M-%S")
 
 set_writer(f'runs/{model.__class__.__name__}_{dt_string}')
 
-epochs = 20
-batch_size = 1000
+epochs = 5
+batch_size = 100
 
 train_loader = DataLoader(train_data, batch_size=batch_size, shuffle=True)
 test_loader  = DataLoader(test_data, batch_size=batch_size, shuffle=True)

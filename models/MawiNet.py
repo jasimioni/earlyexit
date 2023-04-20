@@ -2,7 +2,7 @@ import torch
 import torch.nn as nn
 import time
 
-class MawiNetCIFAR10Layers():
+class MawiNetLayers():
     def __init__(self, num_classes=2):
         self.backbone = [
             nn.Sequential(
@@ -35,11 +35,11 @@ class MawiNetCIFAR10Layers():
                 nn.Linear(1152, num_classes))
         ]
 
-class MawiNetCIFAR10ee0(nn.Module):
-    def __init__(self, num_classes=10):
+class MawiNetee0(nn.Module):
+    def __init__(self, num_classes=2):
         super().__init__()
 
-        layers = MawiNetCIFAR10Layers(num_classes=num_classes)
+        layers = MawiNetLayers(num_classes=num_classes)
 
         self.backbone = layers.backbone[0]
         self.exit     = layers.exits[0]
@@ -47,11 +47,11 @@ class MawiNetCIFAR10ee0(nn.Module):
     def forward(self, x):
         return self.exit(self.backbone(x))
 
-class MawiNetCIFAR10ee1(nn.Module):
-    def __init__(self, num_classes=10):
+class MawiNetee1(nn.Module):
+    def __init__(self, num_classes=2):
         super().__init__()
 
-        layers = MawiNetCIFAR10Layers(num_classes=num_classes)
+        layers = MawiNetLayers(num_classes=num_classes)
 
         self.backbone = nn.Sequential(*layers.backbone[0:2])
         self.exit     = layers.exits[1]
@@ -59,11 +59,26 @@ class MawiNetCIFAR10ee1(nn.Module):
     def forward(self, x):
         return self.exit(self.backbone(x))
 
-class MawiNetCIFAR10(nn.Module):
-    def __init__(self, num_classes=10):
+class MawiNetFlat(nn.Module):
+    def __init__(self, num_classes=2):
         super().__init__()
 
-        layers = MawiNetCIFAR10Layers(num_classes=num_classes)
+        self.model = nn.Sequential(
+            nn.Linear(48, 512),
+            nn.ReLU(),
+            nn.Linear(512, 2048),
+            nn.ReLU(),
+            nn.Linear(2048, 2),
+        )
+
+    def forward(self, x):
+        return self.model(x)
+
+class MawiNet(nn.Module):
+    def __init__(self, num_classes=2):
+        super().__init__()
+
+        layers = MawiNetLayers(num_classes=num_classes)
 
         self.backbone = nn.Sequential(*layers.backbone[0:3])
         self.exit     = layers.exits[2]
@@ -71,11 +86,11 @@ class MawiNetCIFAR10(nn.Module):
     def forward(self, x):
         return self.exit(self.backbone(x))
 
-class MawiNetWithExitsCIFAR10(nn.Module):
+class MawiNetWithExits(nn.Module):
     def __init__(self, num_classes=2, exit_loss_weights=[1.0, 0.5, 0.2]):
         super().__init__()
 
-        layers = MawiNetCIFAR10Layers(num_classes=num_classes)
+        layers = MawiNetLayers(num_classes=num_classes)
 
         self.backbone = nn.Sequential(*layers.backbone)
         self.exits    = nn.Sequential(*layers.exits)

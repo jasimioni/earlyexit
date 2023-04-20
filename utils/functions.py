@@ -19,7 +19,7 @@ def draw_model(model, data):
     writer.add_graph(model, data)
 
 class CustomMawiDataset(Dataset):
-    def __init__(self, year='2019', month='XX'):
+    def __init__(self, as_matrix=True, year='2019', month='XX'):
         files = Path(f'../../datasets/balanced/{year}/VIEGAS/{month}').iterdir()
 
         df = pd.DataFrame()
@@ -32,7 +32,13 @@ class CustomMawiDataset(Dataset):
 
         self.df = df.drop(columns=['MAWILAB_taxonomy', 'MAWILAB_distance', 'MAWILAB_nbDetectors', 'MAWILAB_label', 'class'])
 
-        self.dataset = torch.tensor(self.df.to_numpy()).float()
+
+        if as_matrix:
+            self.df['MakeSquare'] = 0
+            self.dataset = torch.tensor(self.df.to_numpy()).float().view(len(self.df), 1, 7, 7)
+        else:
+            self.dataset = torch.tensor(self.df.to_numpy()).float()
+
         self.labels = torch.tensor(self.df_labels.to_numpy().reshape(-1)).long()
         
         print(self.dataset.shape)
@@ -111,7 +117,6 @@ class CrossEntropyConfidence(nn.Module):
 # Show the accuracy, timing and loss of the model for each exit, using the test datase
 
 def show_exits_stats(model, test_loader, criterion=nn.CrossEntropyLoss(), device='cpu'):
-    return 
     global stats_seq_cnt
 
     fast_inference_mode = model.fast_inference_mode
@@ -134,6 +139,9 @@ def show_exits_stats(model, test_loader, criterion=nn.CrossEntropyLoss(), device
             break
 
         for b, (X_test, y_test) in enumerate(test_loader):
+
+            print(f'X_test shape: {X_test.shape}')
+
             X_test = X_test.to(device)
             y_test = y_test.to(device)
 
@@ -328,8 +336,15 @@ def train_regular_model(model, train_loader=None, test_loader=None, lr=0.001, ep
             b+=1
             
             y_pred = model(X_train)
-            loss = criterion(y_pred, y_train)
 
+            # print(y_pred)
+            # int(y_train)
+
+            loss = criterion(y_pred, y_train)
+            optimizer.zero_grad()
+            loss.backward()
+            optimizer.step()
+            
             writer.add_scalar(f"Loss/train exit", loss, seq)
     
             predicted = torch.max(y_pred.data, 1)[1]
@@ -338,10 +353,6 @@ def train_regular_model(model, train_loader=None, test_loader=None, lr=0.001, ep
             trn_cnt += len(predicted)
 
             cnf = torch.mean(torch.max(nn.functional.softmax(y_pred, dim=-1), 1)[0]).item()
-            
-            optimizer.zero_grad()
-            loss.backward()
-            optimizer.step()
             
             if (b-1)%10 == 0:
                 print(f'Epoch: {i:2} Batch: {b:3} Loss: {loss.item():4.4f} Accuracy Train: {trn_cor.item()*100/trn_cnt:2.3f}%')
