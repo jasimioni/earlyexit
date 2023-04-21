@@ -23,7 +23,7 @@ print(device)
 train_data   = CustomMawiDataset(year='2019', month='01', as_matrix=False)
 test_data    = CustomMawiDataset(year='2019', month='02', as_matrix=False)
 
-model = TryNet03().to(device)
+model = TryNet08().to(device)
 summary(model, (1, 48))
 summary(model)
 
