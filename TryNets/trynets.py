@@ -1,77 +1,73 @@
 #!/usr/bin/env python3
 
+import argparse
+import sys
+sys.path.append('..')
+
+from models.TryNets import *
+from utils.functions import *
+from datetime import datetime
+from torch.utils.tensorboard import SummaryWriter
+from torchinfo import summary
+
 import torch
 import torch.nn as nn
 import torch.optim as optim
 from torch.utils.data import DataLoader, Dataset, TensorDataset
-from torchinfo import summary
-import numpy as np
-import pandas as pd
+from torchvision import datasets, transforms
+import torchvision
+import matplotlib
 
-from datetime import datetime as dt
+import torch
+
 import os
-import time
-import sys
-sys.path.append('..')
+import numpy as np
+from datetime import datetime as dt
 
-from utils.functions import *
-from models.TryNets import *
+import pandas as pd
+import numpy as np
+
+from sklearn.model_selection import train_test_split
+
+from pathlib import Path
+
+if len(sys.argv) == 1:
+    print("Please provide a save name")
+    sys.exit(1)
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 print(device)
 
-train_data   = CustomMawiDataset(year='2016', month='01', as_matrix=False)
-test_data    = CustomMawiDataset(year='2016', month='02', as_matrix=False)
+train_data   = CustomMawiDataset(year='2016', month='01', as_matrix=True)
+test_data    = CustomMawiDataset(year='2016', month='02', as_matrix=True)
 
-model = TryNet01().to(device)
-summary(model, (1, 48))
+model = TryNetWithExits().to(device)
+
+summary(model, (1, 1, 7, 7))
 summary(model)
+print(model)
 
-epochs = 5
-batch_size = 300
+dt_string = datetime.now().strftime("%Y-%m-%d-%H-%M-%S")
+
+filename = f'{model.__class__.__name__}_{sys.argv[1]}_{dt_string}'
+
+set_writer(f'runs/{filename}')
+
+epochs = 20
+batch_size = 1000
 
 train_loader = DataLoader(train_data, batch_size=batch_size, shuffle=True)
 test_loader  = DataLoader(test_data, batch_size=batch_size, shuffle=False)
 
-lr=0.01
 criterion = nn.CrossEntropyLoss()
-optimizer = torch.optim.Adam(model.parameters(), lr=lr)
 
-import time
-start_time = time.time()
+# train_model(model, train_loader=train_loader, test_loader=test_loader, device=device, epochs=epochs)
+train_exit(model, 0, backbone_parameters='section', train_loader=train_loader, test_loader=test_loader, device=device, epochs=epochs)
+train_exit(model, 1, backbone_parameters='section', train_loader=train_loader, test_loader=test_loader, device=device, epochs=epochs)
+train_exit(model, 2, backbone_parameters='section', train_loader=train_loader, test_loader=test_loader, device=device, epochs=epochs)
 
-seq = 0
-for i in range(epochs):
-    trn_cor = 0
-    trn_cnt = 0
-    tst_cor = 0
-    tst_cnt = 0
+save_dict = { 
+    'model_state_dict': model.state_dict()
+}    
 
-    for b, (X_train, y_train) in enumerate(train_loader):
-        X_train = X_train.to(device)
-        y_train = y_train.to(device)
-        b+=1
-
-        y_pred = model(X_train)
-
-        # print(y_pred)
-        # int(y_train)
-
-        loss = criterion(y_pred, y_train)
-        optimizer.zero_grad()
-        loss.backward()
-        optimizer.step()
-
-        predicted = torch.max(y_pred.data, 1)[1]
-        batch_cor = (predicted == y_train).sum()
-        trn_cor += batch_cor
-        trn_cnt += len(predicted)
-
-        cnf = torch.mean(torch.max(nn.functional.softmax(y_pred, dim=-1), 1)[0]).item()
-
-        if (b-1)%10 == 0:
-            print(f'Epoch: {i:2} Batch: {b:3} Loss: {loss.item():4.4f} Accuracy Train: {trn_cor.item()*100/trn_cnt:2.3f}%')
-
-        seq += 1
-
-print(f'\nDuration: {time.time() - start_time:.0f} seconds')
+torch.save(save_dict, f'saves/{filename}') 

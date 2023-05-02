@@ -248,7 +248,7 @@ def train_exit(model, exit, train_loader=None, test_loader=None, lr=0.001, epoch
             writer.add_scalar(f"CNF/train exit {exit}", cnf, seq)
             seq += 1
 
-        show_exits_stats(model, test_loader, criterion, device)
+        # show_exits_stats(model, test_loader, criterion, device)
             
     print(f'\nDuration: {time.time() - start_time:.0f} seconds')
 
@@ -309,7 +309,7 @@ def train_model(model, train_loader=None, test_loader=None, lr=0.001, epochs=5,
 
             seq += 1
         
-        show_exits_stats(model, test_loader, criterion, device)
+        # show_exits_stats(model, test_loader, criterion, device)
             
     print(f'\nDuration: {time.time() - start_time:.0f} seconds')
 
