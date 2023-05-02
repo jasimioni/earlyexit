@@ -18,9 +18,12 @@ def draw_model(model, data):
     global writer
     writer.add_graph(model, data)
 
+def get_writer():
+    return writer
+
 class CustomMawiDataset(Dataset):
     def __init__(self, as_matrix=True, year='2019', month='XX'):
-        files = Path(f'../../datasets/balanced/{year}/VIEGAS/{month}').iterdir()
+        files = Path(f'../../datasets/scaled/{year}/{month}').iterdir()
 
         df = pd.DataFrame()
 
@@ -30,8 +33,8 @@ class CustomMawiDataset(Dataset):
 
         self.df_labels = df[['class']]
 
-        self.df = df.drop(columns=['MAWILAB_taxonomy', 'MAWILAB_distance', 'MAWILAB_nbDetectors', 'MAWILAB_label', 'class'])
-
+        self.df = df.drop(columns=['class'])
+        self.df = self.df.drop(df.columns[[0]], axis=1)
 
         if as_matrix:
             self.df['MakeSquare'] = 0
@@ -139,9 +142,6 @@ def show_exits_stats(model, test_loader, criterion=nn.CrossEntropyLoss(), device
             break
 
         for b, (X_test, y_test) in enumerate(test_loader):
-
-            print(f'X_test shape: {X_test.shape}')
-
             X_test = X_test.to(device)
             y_test = y_test.to(device)
 

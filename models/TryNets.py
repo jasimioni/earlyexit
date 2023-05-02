@@ -525,3 +525,218 @@ class TryNet08(nn.Module):
     
     def forward(self, x):
         return self.layers(x) 
+
+
+class TryNet09(nn.Module):
+    def __init__(self, num_classes=2):
+        super().__init__()
+        
+        self.layers = nn.Sequential(
+            nn.Sequential(
+                nn.Conv2d(1, 32, kernel_size=3, stride=1, padding=0),
+                nn.BatchNorm2d(32),
+                nn.ReLU()),        
+
+            nn.Sequential(
+                nn.Conv2d(32, 64, kernel_size=2, stride=1, padding=0),
+                nn.BatchNorm2d(64),
+                nn.ReLU()),
+            
+            nn.Sequential(
+                nn.Conv2d(64, 128, kernel_size=2, stride=1, padding=0),
+                nn.BatchNorm2d(128),
+                nn.ReLU()),                
+
+            nn.Sequential(
+                nn.Flatten(),
+                nn.Linear(1152, num_classes))
+        )
+    
+    def forward(self, x):
+        return self.layers(x) 
+
+'''
+=================================================================
+Layer (type:depth-idx)                   Param #
+=================================================================
+TryNet11                                 --
+├─Sequential: 1-1                        --
+│    └─Sequential: 2-1                   --
+│    │    └─Conv2d: 3-1                  320
+│    │    └─BatchNorm2d: 3-2             64
+│    │    └─ReLU: 3-3                    --
+│    └─Sequential: 2-2                   --
+│    │    └─Flatten: 3-4                 --
+│    │    └─Linear: 3-5                  1,602
+=================================================================
+Total params: 1,986
+Trainable params: 1,986
+Non-trainable params: 0
+=================================================================
+
+Epoch: 19 Batch: 101 Loss: 0.1952 Accuracy Train: 91.775%
+
+Duration: 59 seconds
+'''
+class TryNet11(nn.Module):
+    def __init__(self, num_classes=2):
+        super().__init__()
+        
+        self.layers = nn.Sequential(
+            nn.Sequential(
+                nn.Conv2d(1, 32, kernel_size=3, stride=1, padding=0),
+                nn.BatchNorm2d(32),
+                nn.ReLU()),        
+
+            nn.Sequential(
+                nn.Flatten(),
+                nn.Linear(800, num_classes))
+        )
+    
+    def forward(self, x):
+        return self.layers(x) 
+
+
+'''
+=================================================================
+Layer (type:depth-idx)                   Param #
+=================================================================
+TryNet12                                 --
+├─Sequential: 1-1                        --
+│    └─Sequential: 2-1                   --
+│    │    └─Conv2d: 3-1                  320
+│    │    └─BatchNorm2d: 3-2             64
+│    │    └─ReLU: 3-3                    --
+│    └─Sequential: 2-2                   --
+│    │    └─Conv2d: 3-4                  8,256
+│    │    └─BatchNorm2d: 3-5             128
+│    │    └─ReLU: 3-6                    --
+│    └─Sequential: 2-3                   --
+│    │    └─Flatten: 3-7                 --
+│    │    └─Linear: 3-8                  2,050
+=================================================================
+Total params: 10,818
+Trainable params: 10,818
+Non-trainable params: 0
+=================================================================
+
+Epoch: 19 Batch: 101 Loss: 0.1659 Accuracy Train: 93.601%
+
+Duration: 75 seconds
+'''
+
+class TryNet12(nn.Module):
+    def __init__(self, num_classes=2):
+        super().__init__()
+        
+        self.layers = nn.Sequential(
+            nn.Sequential(
+                nn.Conv2d(1, 32, kernel_size=3, stride=1, padding=0),
+                nn.BatchNorm2d(32),
+                nn.ReLU()),        
+
+            nn.Sequential(
+                nn.Conv2d(32, 64, kernel_size=2, stride=1, padding=0),
+                nn.BatchNorm2d(64),
+                nn.ReLU()),
+
+            nn.Sequential(
+                nn.Flatten(),
+                nn.Linear(1024, num_classes))
+        )
+    
+    def forward(self, x):
+        return self.layers(x) 
+
+
+'''
+=================================================================
+Layer (type:depth-idx)                   Param #
+=================================================================
+TryNet13                                 --
+├─Sequential: 1-1                        --
+│    └─Sequential: 2-1                   --
+│    │    └─Conv2d: 3-1                  320
+│    │    └─BatchNorm2d: 3-2             64
+│    │    └─ReLU: 3-3                    --
+│    └─Sequential: 2-2                   --
+│    │    └─Conv2d: 3-4                  8,256
+│    │    └─BatchNorm2d: 3-5             128
+│    │    └─ReLU: 3-6                    --
+│    └─Sequential: 2-3                   --
+│    │    └─Conv2d: 3-7                  32,896
+│    │    └─BatchNorm2d: 3-8             256
+│    │    └─ReLU: 3-9                    --
+│    └─Sequential: 2-4                   --
+│    │    └─Flatten: 3-10                --
+│    │    └─Linear: 3-11                 2,306
+=================================================================
+Total params: 44,226
+Trainable params: 44,226
+Non-trainable params: 0
+=================================================================
+
+Epoch: 19 Batch: 101 Loss: 0.1650 Accuracy Train: 93.498%
+
+Duration: 123 second
+'''
+class TryNet13(nn.Module):
+    def __init__(self, num_classes=2):
+        super().__init__()
+        
+        self.layers = nn.Sequential(
+            nn.Sequential(
+                nn.Conv2d(1, 32, kernel_size=3, stride=1, padding=0),
+                nn.BatchNorm2d(32),
+                nn.ReLU()),        
+            
+            nn.Sequential(
+                nn.Conv2d(32, 64, kernel_size=2, stride=1, padding=0),
+                nn.BatchNorm2d(64),
+                nn.ReLU()),        
+            
+            nn.Sequential(
+                nn.Conv2d(64, 128, kernel_size=2, stride=1, padding=0),
+                nn.BatchNorm2d(128),
+                nn.ReLU()),                 
+
+            nn.Sequential(
+                nn.Flatten(),
+                nn.Linear(1152, num_classes))
+        )
+    
+    def forward(self, x):
+        return self.layers(x) 
+
+
+'''
+=================================================================
+Layer (type:depth-idx)                   Param #
+=================================================================
+TryNet14                                 --
+├─Sequential: 1-1                        --
+│    └─Sequential: 2-1                   --
+│    │    └─Flatten: 3-1                 --
+│    │    └─Linear: 3-2                  100
+=================================================================
+Total params: 100
+Trainable params: 100
+Non-trainable params: 0
+=================================================================
+
+Epoch: 19 Batch: 101 Loss: 0.2497 Accuracy Train: 90.678%
+'''
+
+class TryNet14(nn.Module):
+    def __init__(self, num_classes=2):
+        super().__init__()
+        
+        self.layers = nn.Sequential(
+            nn.Sequential(
+                nn.Flatten(),
+                nn.ReLU(),
+                nn.Linear(49, num_classes))
+        )
+    
+    def forward(self, x):
+        return self.layers(x) 

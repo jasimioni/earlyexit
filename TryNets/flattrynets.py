@@ -20,15 +20,15 @@ from models.TryNets import *
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 print(device)
 
-train_data   = CustomMawiDataset(year='2016', month='01', as_matrix=False)
-test_data    = CustomMawiDataset(year='2016', month='02', as_matrix=False)
+train_data   = CustomMawiDataset(year='2016', month='01', as_matrix=True)
+test_data    = CustomMawiDataset(year='2016', month='03', as_matrix=True)
 
-model = TryNet01().to(device)
-summary(model, (1, 48))
+model = TryNet14().to(device)
+# summary(model, (1, 1, 7, 7))
 summary(model)
 
-epochs = 5
-batch_size = 300
+epochs = 20
+batch_size = 5000
 
 train_loader = DataLoader(train_data, batch_size=batch_size, shuffle=True)
 test_loader  = DataLoader(test_data, batch_size=batch_size, shuffle=False)

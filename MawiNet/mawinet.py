@@ -34,12 +34,12 @@ from pathlib import Path
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 print(device)
 
-train_data   = CustomMawiDataset(year='2019', month='01', as_matrix=False)
-test_data    = CustomMawiDataset(year='2019', month='01', as_matrix=False)
+train_data   = CustomMawiDataset(year='2016', month='01', as_matrix=True)
+test_data    = CustomMawiDataset(year='2016', month='02', as_matrix=True)
 
-model = MawiNetFlat().to(device)
+model = MawiNetWithExits().to(device)
 
-# summary(model, (1, 1, 7, 7))
+summary(model, (1, 1, 7, 7))
 summary(model)
 print(model)
 
@@ -51,8 +51,13 @@ epochs = 20
 batch_size = 1000
 
 train_loader = DataLoader(train_data, batch_size=batch_size, shuffle=True)
-test_loader  = DataLoader(test_data, batch_size=batch_size, shuffle=True)
+test_loader  = DataLoader(test_data, batch_size=batch_size, shuffle=False)
 
 criterion = nn.CrossEntropyLoss()
 
-train_regular_model(model, train_loader=train_loader, test_loader=test_loader, device=device, epochs=epochs)
+# train_model(model, train_loader=train_loader, test_loader=test_loader, device=device, epochs=epochs)
+train_exit(model, 2, backbone_parameters='path', train_loader=train_loader, test_loader=test_loader, device=device, epochs=epochs)
+train_exit(model, 0, backbone_parameters='section', train_loader=train_loader, test_loader=test_loader, device=device, epochs=epochs)
+train_exit(model, 1, backbone_parameters='section', train_loader=train_loader, test_loader=test_loader, device=device, epochs=epochs)
+train_exit(model, 2, backbone_parameters='section', train_loader=train_loader, test_loader=test_loader, device=device, epochs=epochs)
+
