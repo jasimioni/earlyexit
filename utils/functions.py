@@ -44,8 +44,8 @@ class CustomMawiDataset(Dataset):
 
         self.labels = torch.tensor(self.df_labels.to_numpy().reshape(-1)).long()
         
-        print(self.dataset.shape)
-        print(self.labels.shape)
+        print(self.dataset.shape, file=sys.stderr)
+        print(self.labels.shape, file=sys.stderr)
     
     def __len__(self):
         return len(self.dataset)

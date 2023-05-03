@@ -9,6 +9,7 @@ import numpy as np
 import pandas as pd
 
 from datetime import datetime as dt
+from datetime import datetime
 import os
 import time
 import sys
@@ -17,17 +18,25 @@ sys.path.append('..')
 from utils.functions import *
 import models.TryNets
 
+net = 'TryNet13'
+
+dt_string = datetime.now().strftime("%Y-%m-%d-%H-%M-%S")
+
+set_writer(f'runs/train_{net}_{dt_string}')
+writer = get_writer()
+
 def log(file, msg):
     print(msg)
-    print(msg, file=file)
+    # print(msg, file=file)
 
 def train(model, device, train_loader, file_prefix, epochs=20):
     lr=0.01
     criterion = nn.CrossEntropyLoss()
     optimizer = torch.optim.Adam(model.parameters(), lr=lr)
 
-    log_file = open(f'{file_prefix}.log', 'w')
-    save_file = f'{file_prefix}.save'
+    # log_file = open(f'{file_prefix}.log', 'w')
+    log_file = None
+    # save_file = f'{file_prefix}.save'
 
     model_summary = summary(model)
     log(log_file, f'Training {model} in {device}')
@@ -64,6 +73,8 @@ def train(model, device, train_loader, file_prefix, epochs=20):
 
             # cnf = torch.mean(torch.max(nn.functional.softmax(y_pred, dim=-1), 1)[0]).item()
 
+            writer.add_scalar(f'Accuracy', trn_cor.item()*100/trn_cnt, seq)
+
             if (b-1)%10 == 0:
                 log(log_file, f'Epoch: {i:2} Batch: {b:3} Loss: {loss.item():4.4f} Accuracy Train: {trn_cor.item()*100/trn_cnt:2.3f}%')
 
@@ -72,12 +83,10 @@ def train(model, device, train_loader, file_prefix, epochs=20):
     log(log_file, f'\nDuration: {time.time() - start_time:.0f} seconds')
     log_file.close()
    
-    save_dict = { 
-        'model_state_dict': model.state_dict()
-    }    
-    torch.save(save_dict, save_file) 
-
-
+    #save_dict = { 
+    #    'model_state_dict': model.state_dict()
+    #}    
+    #torch.save(save_dict, save_file) 
 
 batch_size = 5000
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
@@ -87,7 +96,7 @@ train_data   = CustomMawiDataset(year='2016', month='01', as_matrix=True)
 train_loader = DataLoader(train_data, batch_size=batch_size, shuffle=True)
 
 # nets = [ 'TryNet14', 'TryNet11', 'TryNet12', 'TryNet13' ]
-nets = [ 'TryNet13' ]
+nets = [ net ]
 
 for net in nets:
     print(net)
