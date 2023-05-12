@@ -49,7 +49,7 @@ model.set_measurement_mode()
 with torch.no_grad():
     model(torch.rand(1, 1, 7, 7).to(device))
 
-thresholds = [ 0.7, 0.7, 0 ]
+thresholds = [ 0.5, 0.5, 0 ]
 
 seq = 0
 for year in (2016, 2017, 2018, 2019):

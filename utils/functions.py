@@ -5,6 +5,7 @@ from torch.utils.data import Dataset
 from torch.utils.data import DataLoader
 from pathlib import Path
 import pandas as pd
+import math
 
 from torch.utils.tensorboard import SummaryWriter
 writer = None
@@ -22,8 +23,8 @@ def get_writer():
     return writer
 
 class CustomMawiDataset(Dataset):
-    def __init__(self, as_matrix=True, year='2019', month='XX'):
-        files = Path(f'../../datasets/scaled/{year}/{month}').iterdir()
+    def __init__(self, as_matrix=True, author='VIEGAS', year='2016', month='XX'):
+        files = Path(f'../../datasets/scaled/{author}/{year}/{month}').iterdir()
 
         df = pd.DataFrame()
 
@@ -34,11 +35,16 @@ class CustomMawiDataset(Dataset):
         self.df_labels = df[['class']]
 
         self.df = df.drop(columns=['class'])
-        self.df = self.df.drop(df.columns[[0]], axis=1)
 
         if as_matrix:
-            self.df['MakeSquare'] = 0
-            self.dataset = torch.tensor(self.df.to_numpy()).float().view(len(self.df), 1, 7, 7)
+
+            p_columns = len(self.df.columns)
+            s_size = int(math.sqrt(p_columns)) + 1
+
+            for i in range(s_size**2 - p_columns):
+                self.df[f'EmptyCol{i}'] = 0
+
+            self.dataset = torch.tensor(self.df.to_numpy()).float().view(len(self.df), 1, s_size, s_size)
         else:
             self.dataset = torch.tensor(self.df.to_numpy()).float()
 
