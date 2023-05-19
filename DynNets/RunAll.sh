@@ -2,13 +2,10 @@
 
 for author in MOORE NIGEL ORUNADA VIEGAS
 do
-    for size in '' 32 32,64:
+    for year in 2016 2017 2018 2019
     do
-        for year in 2016 2017 2018 2019
-        do
-            echo ./TrainNets.py $author $year "'$size'" "''"
-            ./TrainNets.py $author $year "'$size'" "''"
-        done
+        echo ./TrainNets.py $author $year '32,64,128' '3,2,2'
+        ./TrainNets.py $author $year '32,64,128' '3,2,2'
     done
 done
 
