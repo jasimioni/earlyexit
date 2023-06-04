@@ -29,22 +29,24 @@ if len(sys.argv) == 1:
 loadfile = sys.argv[1]
 dt_string = datetime.now().strftime("%Y-%m-%d-%H-%M-%S")
 
-batch_size = 50000
+batch_size = 5000
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 print(device)
 
 model = MooreNetWithExits().to(device)
 
-checkpoint = torch.load(f'saves/{loadfile}')
-model.load_state_dict(checkpoint['model_state_dict'])
+summary(model, (1, 1, 8, 8))
+summary(model)
+print(model)
 
+model.load_state_dict(torch.load(f'saves/{loadfile}'))
 model.eval()
 model.set_measurement_mode()
-# Run on inference to "load" everything
-with torch.no_grad():
-    model(torch.rand(1, 1, 8, 8).to(device))
+# Run one inference to "load" everything
+# with torch.no_grad():
+#    model(torch.rand(1, 1, 8, 8).to(device))
 
-thresholds = [ 0.5, 0.5, 0 ]
+thresholds = [ 0.9, 0.9, 0 ]
 
 seq = 0
 for year in (2016, 2017, 2018, 2019):
@@ -71,6 +73,12 @@ for year in (2016, 2017, 2018, 2019):
                 y = y.to(device)
 
                 results = model(X)
+
+                # print(X)
+                # print(results)
+
+                # sys.exit(1)
+
                 c_results = []
                             
                 for exit, result in enumerate(results):
@@ -78,11 +86,11 @@ for year in (2016, 2017, 2018, 2019):
                     times['ex'][exit] += result[2] * len(result[0])
                 
                     cnf, predicted = torch.max(nn.functional.softmax(result[0], dim=-1), 1)
-                    
+
                     c_results.append([cnf, predicted])
                             
                     correct[exit] += (predicted == y).sum()
-                    
+
                 for i in range(len(y)):
                     for exit, res in enumerate(c_results):
                         if res[0][i] > thresholds[exit]:
@@ -102,8 +110,13 @@ for year in (2016, 2017, 2018, 2019):
             mean_times = ' | '.join([ f'{1000*mt:.4} ms' for mt in mean_time ])
             accuracies = ' | '.join([ f'{100*acc/total:.6}% ' for acc in correct ])
             chosen_exits  = ' | '.join([ f'{100*x/total:.2f}%' for x in chosen_exit ])
-            # exit_accuracy = ' | '.join([ f'{100*correct_exit[i]/chosen_exit[i]:.2f}%' for i in range(len(chosen_exit))])
-            exit_accuracy = 1
+            exit_accuracy = []
+            for i, n_chosen in enumerate(chosen_exit):
+                if n_chosen > 0:
+                    exit_accuracy.append(f'{100*correct_exit[i]/n_chosen:.2f} %')
+                else:
+                    exit_accuracy.append('NaN')
+            exit_accuracy = ' | '.join(exit_accuracy)
             thresholds_str = ' | '.join([ f'{t}' for t in thresholds ])
             
             t_mean_time = 0

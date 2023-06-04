@@ -6,6 +6,7 @@ from torch.utils.data import DataLoader
 from pathlib import Path
 import pandas as pd
 import math
+from datetime import datetime
 
 from torch.utils.tensorboard import SummaryWriter
 writer = None
@@ -24,7 +25,12 @@ def get_writer():
 
 class CustomMawiDataset(Dataset):
     def __init__(self, as_matrix=True, author='VIEGAS', year='2016', month='XX'):
-        files = Path(f'../../datasets/scaled/{author}/{year}/{month}').iterdir()
+
+        directory = f'../../datasets/scaled/{author}/{year}/{month}'
+
+        print(f'Getting files from {directory}')
+
+        files = Path(directory).iterdir()
 
         df = pd.DataFrame()
 
@@ -49,6 +55,10 @@ class CustomMawiDataset(Dataset):
             self.dataset = torch.tensor(self.df.to_numpy()).float()
 
         self.labels = torch.tensor(self.df_labels.to_numpy().reshape(-1)).long()
+
+        # dt_string = datetime.now().strftime("%Y-%m-%d-%H-%M-%S")
+        # self.df.to_csv(f'{dt_string}_dataset.csv')
+        # self.df_labels.to_csv(f'{dt_string}_labels.csv')
         
         print(self.dataset.shape, file=sys.stderr)
         print(self.labels.shape, file=sys.stderr)

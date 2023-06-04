@@ -66,8 +66,4 @@ train_model(model, train_loader=train_loader, test_loader=test_loader, device=de
 # train_exit(model, 1, backbone_parameters='section', train_loader=train_loader, test_loader=test_loader, device=device, epochs=epochs)
 # train_exit(model, 2, backbone_parameters='section', train_loader=train_loader, test_loader=test_loader, device=device, epochs=epochs)
 
-save_dict = { 
-    'model_state_dict': model.state_dict()
-}    
-
-torch.save(save_dict, f'saves/{filename}') 
+torch.save(model.state_dict(), f'saves/{filename}') 

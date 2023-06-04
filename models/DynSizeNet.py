@@ -78,7 +78,6 @@ class DynNetGen(nn.Module):
                               kernel_size=conv_kernel_sizes[i], 
                               stride=conv_strides[i], 
                               padding=conv_paddings[i]),
-                    nn.BatchNorm2d(filter_size),
                     nn.ReLU()))
                 l_filter_size = filter_size
                     

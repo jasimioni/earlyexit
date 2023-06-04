@@ -108,6 +108,5 @@ print(device)
 train_data   = CustomMawiDataset(author=author, year=year, month='01', as_matrix=True)
 train_loader = DataLoader(train_data, batch_size=batch_size, shuffle=True)
 
-
 model = DynNetGen(input_sample=train_data, conv_filters=convs, conv_kernel_sizes=kernels).to(device)
 train(model, device, train_loader)

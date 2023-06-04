@@ -10,7 +10,6 @@ class MooreNetLayers():
             nn.Sequential(
                 nn.Sequential(
                     nn.Conv2d(1, 32, kernel_size=3, stride=1, padding=0),
-                    nn.BatchNorm2d(32),
                     nn.ReLU()),        
 
             ),
@@ -18,12 +17,10 @@ class MooreNetLayers():
             nn.Sequential(
                 nn.Sequential(
                     nn.Conv2d(32, 64, kernel_size=2, stride=1, padding=0),
-                    nn.BatchNorm2d(64),
                     nn.ReLU()),
                 
                 nn.Sequential(
                     nn.Conv2d(64, 128, kernel_size=2, stride=1, padding=0),
-                    nn.BatchNorm2d(128),
                     nn.ReLU()),
             ),
         ]
@@ -31,6 +28,7 @@ class MooreNetLayers():
         self.exits = [
             nn.Sequential(
                 nn.Flatten(),
+                nn.ReLU(),
                 nn.Linear(64, num_classes)),
             
             nn.Sequential(
