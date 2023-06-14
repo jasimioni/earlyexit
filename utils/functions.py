@@ -26,17 +26,20 @@ def get_writer():
 class CustomMawiDataset(Dataset):
     def __init__(self, as_matrix=True, author='VIEGAS', year='2016', month='XX'):
 
-        directory = f'../../datasets/scaled/{author}/{year}/{month}'
-
-        print(f'Getting files from {directory}')
-
-        files = Path(directory).iterdir()
+        
+        if month == 'ALL':
+            months = [ f'{month+1:02d}' for month in range(12) ]
+        else:
+            months = [ month ]
 
         df = pd.DataFrame()
-
-        for file in files:
-            temp = pd.read_csv(file)
-            df = pd.concat([df, temp])
+        for month in months:
+            directory = f'../../datasets/scaled/{author}/{year}/{month}'
+            print(f'Getting files from {directory}')
+            files = Path(directory).iterdir()
+            for file in files:
+                temp = pd.read_csv(file)
+                df = pd.concat([df, temp])
 
         self.df_labels = df[['class']]
 

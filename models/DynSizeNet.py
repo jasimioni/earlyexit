@@ -44,6 +44,76 @@ class DynNetS(nn.Module):
     def forward(self, x):
         return self.layers(x) 
 
+class ExpandedDynNetGen(nn.Module):
+    
+    def unflat(self, x):
+        return x.view(-1, 1, self.expand_to, self.expand_to)
+
+    def __init__(self, 
+                 input_sample=None, 
+                 num_classes=2, 
+                 expand_to=32,
+                 conv_filters=None, 
+                 conv_kernel_sizes=None,
+                 conv_strides=None,
+                 conv_paddings=None):
+
+        super().__init__()
+
+        if input_sample is None:
+            raise Exception("No sample data provided - must be in the format of (1, c, r)")
+
+        self.expand_to = expand_to
+
+        x, y = input_sample[0]
+        
+        print("Shape: ", x.shape[0])
+
+        self.adaptation = nn.Sequential(
+            nn.Linear(x.shape[0], self.expand_to ** 2),
+        )
+
+        x = x.view(1, *x.shape)
+        x = self.unflat(self.adaptation(x))
+
+        self.layers = nn.Sequential()
+
+        if conv_filters is not None:
+            if conv_kernel_sizes is None:
+                conv_kernel_sizes = [ 7 for i in conv_filters ]
+            if conv_strides is None:
+                conv_strides = [ 1 for i in conv_filters ]
+            if conv_paddings is None:
+                conv_paddings = [ 0 for i in conv_filters ]
+
+            l_filter_size = 1
+            for i, filter_size in enumerate(conv_filters):
+                self.layers.append(nn.Sequential(
+                    nn.Conv2d(l_filter_size, 
+                              filter_size, 
+                              kernel_size=conv_kernel_sizes[i], 
+                              stride=conv_strides[i], 
+                              padding=conv_paddings[i]),
+                    nn.ReLU(),
+                    # nn.MaxPool2d(kernel_size = conv_kernel_sizes[i], stride = 2))
+                    ))
+                l_filter_size = filter_size
+                    
+            x = self.layers(x)
+        
+        c, l, w, h = x.shape
+        
+        flat_size = l * w * h
+        
+        self.layers.append(nn.Sequential(
+                nn.Flatten(),
+                nn.Linear(flat_size, num_classes))
+        )
+    
+    def forward(self, x):
+        x = self.unflat(self.adaptation(x))
+        return self.layers(x)
+
 class DynNetGen(nn.Module):
     def __init__(self, 
                  input_sample=None, 
@@ -94,6 +164,41 @@ class DynNetGen(nn.Module):
     
     def forward(self, x):
         return self.layers(x) 
+
+class LinearDynNetGen(nn.Module):
+    
+    def __init__(self, 
+                 input_sample=None, 
+                 num_classes=2, 
+                 layers=None):
+
+        super().__init__()
+
+        if input_sample is None:
+            raise Exception("No sample data provided - must be in the format of (1, c, r)")
+
+        x, y = input_sample[0]
+        
+        print("Shape: ", x.shape[0])
+
+        self.layers = nn.Sequential()
+
+        last_size = x.shape[0]
+
+        if layers is not None:
+            for size in layers:
+                self.layers.append(nn.Sequential(
+                    nn.Linear(last_size, size),
+                    nn.ReLU()
+                ))
+                last_size = size
+        
+        self.layers.append(nn.Sequential(
+                nn.Linear(last_size, num_classes))
+        )
+    
+    def forward(self, x):
+        return self.layers(x)
 
 class DynNetM(nn.Module):
     def __init__(self, input_sample=None, num_classes=2):

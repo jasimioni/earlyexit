@@ -23,7 +23,7 @@ dt_string = datetime.now().strftime("%Y-%m-%d-%H-%M-%S")
 
 author, year, month, convs, kernels = sys.argv[1:]
 
-file_name_args = [ 'matrix', author, year, month ]
+file_name_args = [ 'expanded', author, year, month ]
 
 if convs != '':
     for i in re.split(',', convs):
@@ -39,7 +39,7 @@ if kernels != '':
 else:
     kernels = None
 
-file_name = '_'.join( [ *file_name_args, dt_string ])
+file_name = '_'.join([ *file_name_args, dt_string ])
 
 set_writer(f'runs/train_{file_name}')
 writer = get_writer()
@@ -105,8 +105,8 @@ batch_size = 5000
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 print(device)
 
-train_data   = CustomMawiDataset(author=author, year=year, month=month, as_matrix=True)
+train_data   = CustomMawiDataset(author=author, year=year, month=month, as_matrix=False)
 train_loader = DataLoader(train_data, batch_size=batch_size, shuffle=True)
 
-model = DynNetGen(input_sample=train_data, conv_filters=convs, conv_kernel_sizes=kernels).to(device)
+model = ExpandedDynNetGen(input_sample=train_data, conv_filters=convs, conv_kernel_sizes=kernels).to(device)
 train(model, device, train_loader)
