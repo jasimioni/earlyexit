@@ -35,7 +35,7 @@ class CustomMawiDataset(Dataset):
         df = pd.DataFrame()
         for month in months:
             directory = f'../../datasets/scaled/{author}/{year}/{month}'
-            print(f'Getting files from {directory}')
+            print(f'Getting files from {directory}', file=sys.stderr)
             files = Path(directory).iterdir()
             for file in files:
                 temp = pd.read_csv(file)
