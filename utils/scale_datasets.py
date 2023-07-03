@@ -1,56 +1,47 @@
 #!/usr/bin/env python3
 
-import pandas as pd
+import re
 from pathlib import Path
-from sklearn import preprocessing
+import pandas as pd
 import sys
-import os
+from sklearn import preprocessing
+
+glob = '*20??010[12345]*'
+
+files = Path('ALL').glob(glob)
+
+dfs = []
+
+for file in sorted(files):
+    print(file)
+    dfs.append(pd.read_csv(file))
+
+df = pd.concat(dfs)
+
+print(df.shape)
+
+idx = { 'normal' : 0, 'attack' : 1 }
+df['class'] = df['class'].apply(lambda x: idx[x])
 
 scaler = preprocessing.MinMaxScaler()
+scaler.fit(df[df.columns[0:-1]])
 
-author = sys.argv[1] if len(sys.argv) > 1 else 'VIEGAS'
-
-def read_files(year, month):
-    files = Path(f'../../datasets/balanced/{year}/{author}/{month}').iterdir()
-
-    df = pd.DataFrame()
-
-    for file in files:
-        temp = pd.read_csv(file)
-        df = pd.concat([df, temp])
-
+files = Path('ALL').iterdir()
+for file in sorted(files):
+    print(f"Scaling file {file}")
+    df = pd.read_csv(file)
+    df['class'] = df['class'].apply(lambda x: idx[x])
     df_labels = df[['class']]
-    df = df.drop(columns=['MAWILAB_taxonomy', 'MAWILAB_distance', 'MAWILAB_nbDetectors', 'MAWILAB_label', 'class'])
 
-    return df, df_labels
+    df = df.drop(columns=['class'])
 
-df, df_labels = read_files('2016', '01')
+    df[df.columns] = scaler.transform(df[df.columns])
 
-df[df.columns] = scaler.fit_transform(df[df.columns])
-df['class'] = df_labels['class']
+    df = df.copy()
 
-directory = f'../../datasets/scaled/{author}/'
+    df['class'] = df_labels['class']
 
-try:
-    os.makedirs(directory)
-except Exception as e:
-    print(f'Diretório não criado: {e}')
+    dst_file = Path('SCALED') / file.name.replace('ALL', 'SCALED_ALL')
+    print(f'Scaled to {dst_file}')
 
-df.to_csv(os.path.join(directory, 'scale_fit_reference.csv'), index=False)
-
-for year in (2016, 2017, 2018, 2019):
-    for month in range(12):
-        month += 1
-        print(f"Running {author} {year} {month:02d}")
-        df, df_labels = read_files(f'{year}', f'{month:02d}')
-        df[df.columns] = scaler.transform(df[df.columns])
-        df['class'] = df_labels['class']
-
-        directory = f'../../datasets/scaled/{author}/{year}/{month:02d}/'
-        try:
-            os.makedirs(directory)
-        except Exception as e:
-            print(f'Diretório não criado: {e}')
-
-        df.to_csv(os.path.join(directory, f'{year}_{month:02d}.csv'), index=False)
-
+    df.to_csv(dst_file, index=False)

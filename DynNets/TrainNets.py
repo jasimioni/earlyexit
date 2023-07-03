@@ -21,9 +21,9 @@ from models.DynSizeNet import *
 
 dt_string = datetime.now().strftime("%Y-%m-%d-%H-%M-%S")
 
-author, year, month, convs, kernels = sys.argv[1:]
+glob, convs, kernels = sys.argv[1:]
 
-file_name_args = [ 'matrix', author, year, month ]
+file_name_args = [ 'matrix', glob ]
 
 if convs != '':
     for i in re.split(',', convs):
@@ -105,7 +105,7 @@ batch_size = 5000
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 print(device)
 
-train_data   = CustomMawiDataset(author=author, year=year, month=month, as_matrix=True)
+train_data   = CustomDataset(glob=glob, as_matrix=True)
 train_loader = DataLoader(train_data, batch_size=batch_size, shuffle=True)
 
 model = DynNetGen(input_sample=train_data, conv_filters=convs, conv_kernel_sizes=kernels).to(device)

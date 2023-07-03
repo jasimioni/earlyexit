@@ -23,6 +23,49 @@ def draw_model(model, data):
 def get_writer():
     return writer
 
+class CustomDataset(Dataset):
+    def __init__(self, as_matrix=True, glob='200701', directory='SCALED'):
+        directory = f'../../datasets/balanced/{directory}'
+        print(f'Getting files from {directory}', file=sys.stderr)
+        files = Path(directory).glob(f'*{glob}*')
+        dfs = []
+        for file in sorted(files):
+            dfs.append(pd.read_csv(file))
+
+        df = pd.concat(dfs, ignore_index=True)
+
+        self.df_labels = df[['class']].copy()
+        self.df = df.drop(columns=['class']).copy()
+
+        if as_matrix:
+            p_columns = len(self.df.columns)
+            s_size = int(math.sqrt(p_columns)) + 1
+
+            for i in range(s_size**2 - p_columns):
+                self.df[f'EmptyCol{i}'] = 0
+
+            self.dataset = torch.tensor(self.df.to_numpy()).float().view(len(self.df), 1, s_size, s_size)
+        else:
+            self.dataset = torch.tensor(self.df.to_numpy()).float()
+
+
+        print(f"Checking: {self.df_labels['class'][0]}")
+
+        if isinstance(self.df_labels['class'][0], str):
+            idx = { 'normal' : 0, 'attack' : 1 }
+            self.df_labels['class'] = self.df_labels['class'].apply(lambda x: idx[x])
+        
+        self.labels = torch.tensor(self.df_labels.to_numpy().reshape(-1)).long()
+
+        print(self.dataset.shape, file=sys.stderr)
+        print(self.labels.shape, file=sys.stderr)
+    
+    def __len__(self):
+        return len(self.dataset)
+    
+    def __getitem__(self, idx):
+        return self.dataset[idx], self.labels[idx]
+
 class CustomMawiDataset(Dataset):
     def __init__(self, as_matrix=True, author='VIEGAS', year='2016', month='XX'):
 
