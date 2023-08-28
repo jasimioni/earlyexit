@@ -1,0 +1,64 @@
+Training DynNetGen(
+  (layers): Sequential(
+    (0): Sequential(
+      (0): Conv2d(1, 8, kernel_size=(2, 2), stride=(1, 1))
+      (1): ReLU()
+    )
+    (1): Sequential(
+      (0): Conv2d(8, 16, kernel_size=(2, 2), stride=(1, 1))
+      (1): ReLU()
+    )
+    (2): Sequential(
+      (0): Conv2d(16, 32, kernel_size=(2, 2), stride=(1, 1))
+      (1): ReLU()
+    )
+    (3): Sequential(
+      (0): Flatten(start_dim=1, end_dim=-1)
+      (1): Linear(in_features=2592, out_features=2, bias=True)
+    )
+  )
+) in cuda
+=================================================================
+Layer (type:depth-idx)                   Param #
+=================================================================
+DynNetGen                                --
+├─Sequential: 1-1                        --
+│    └─Sequential: 2-1                   --
+│    │    └─Conv2d: 3-1                  40
+│    │    └─ReLU: 3-2                    --
+│    └─Sequential: 2-2                   --
+│    │    └─Conv2d: 3-3                  528
+│    │    └─ReLU: 3-4                    --
+│    └─Sequential: 2-3                   --
+│    │    └─Conv2d: 3-5                  2,080
+│    │    └─ReLU: 3-6                    --
+│    └─Sequential: 2-4                   --
+│    │    └─Flatten: 3-7                 --
+│    │    └─Linear: 3-8                  5,186
+=================================================================
+Total params: 7,834
+Trainable params: 7,834
+Non-trainable params: 0
+=================================================================
+Epoch:  0 Batch:   1 Loss: 3443.3313 Accuracy Train: 49.360%
+Epoch:  1 Batch:   1 Loss: 43379.1094 Accuracy Train: 49.660%
+Epoch:  2 Batch:   1 Loss: 2202.7454 Accuracy Train: 50.600%
+Epoch:  3 Batch:   1 Loss: 1556.3208 Accuracy Train: 49.780%
+Epoch:  4 Batch:   1 Loss: 577.1984 Accuracy Train: 50.460%
+Epoch:  5 Batch:   1 Loss: 206.7557 Accuracy Train: 49.260%
+Epoch:  6 Batch:   1 Loss: 82.8565 Accuracy Train: 53.320%
+Epoch:  7 Batch:   1 Loss: 43.7912 Accuracy Train: 53.220%
+Epoch:  8 Batch:   1 Loss: 13.7587 Accuracy Train: 51.060%
+Epoch:  9 Batch:   1 Loss: 2.8182 Accuracy Train: 48.420%
+Epoch: 10 Batch:   1 Loss: 1.0853 Accuracy Train: 50.860%
+Epoch: 11 Batch:   1 Loss: 0.7597 Accuracy Train: 50.460%
+Epoch: 12 Batch:   1 Loss: 1.2033 Accuracy Train: 50.240%
+Epoch: 13 Batch:   1 Loss: 0.8064 Accuracy Train: 50.240%
+Epoch: 14 Batch:   1 Loss: 1.0202 Accuracy Train: 50.040%
+Epoch: 15 Batch:   1 Loss: 0.6957 Accuracy Train: 49.560%
+Epoch: 16 Batch:   1 Loss: 0.6959 Accuracy Train: 49.420%
+Epoch: 17 Batch:   1 Loss: 0.6947 Accuracy Train: 50.300%
+Epoch: 18 Batch:   1 Loss: 0.6947 Accuracy Train: 50.320%
+Epoch: 19 Batch:   1 Loss: 0.6951 Accuracy Train: 49.980%
+
+Duration: 2 seconds

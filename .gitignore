@@ -5,3 +5,5 @@ outputs/
 runs/
 old_runs/
 *.swp
+*.pth
+*.csv

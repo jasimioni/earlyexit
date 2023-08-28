@@ -1,0 +1,384 @@
+2016-01: Accuracy: 90.71 | 91.36 | 93.86
+Thresholds: 0.7 | 0.7 | 0
+Mean times per exit: 0.1594 ms | 0.4687 ms | 0.8656 ms
+Accuracies per exit (for all dataset): 90.7136%  | 91.3561%  | 93.8559% 
+Rate of exit chosen: 89.32% | 4.52% | 6.16%
+Accuracy per exit (when chosen): 94.56% | 81.83% | 87.20%
+Overall Accuracy: 93.53%
+Mean time: 0.2168 ms
+2016-02: Accuracy: 89.98 | 91.06 | 93.18
+Thresholds: 0.7 | 0.7 | 0
+Mean times per exit: 0.1011 ms | 0.3239 ms | 0.5911 ms
+Accuracies per exit (for all dataset): 89.9846%  | 91.0555%  | 93.1803% 
+Rate of exit chosen: 88.38% | 5.12% | 6.50%
+Accuracy per exit (when chosen): 94.20% | 85.18% | 84.82%
+Overall Accuracy: 93.13%
+Mean time: 0.1443 ms
+2016-03: Accuracy: 91.48 | 93.53 | 94.77
+Thresholds: 0.7 | 0.7 | 0
+Mean times per exit: 0.0947 ms | 0.3078 ms | 0.5902 ms
+Accuracies per exit (for all dataset): 91.4777%  | 93.5259%  | 94.7694% 
+Rate of exit chosen: 90.10% | 4.78% | 5.11%
+Accuracy per exit (when chosen): 95.58% | 85.59% | 86.18%
+Overall Accuracy: 94.62%
+Mean time: 0.1302 ms
+2016-04: Accuracy: 92.03 | 92.61 | 95.32
+Thresholds: 0.7 | 0.7 | 0
+Mean times per exit: 0.1185 ms | 0.3198 ms | 0.5729 ms
+Accuracies per exit (for all dataset): 92.029%  | 92.612%  | 95.3182% 
+Rate of exit chosen: 89.72% | 3.25% | 7.03%
+Accuracy per exit (when chosen): 95.90% | 90.92% | 90.74%
+Overall Accuracy: 95.37%
+Mean time: 0.1570 ms
+2016-05: Accuracy: 88.93 | 92.86 | 94.71
+Thresholds: 0.7 | 0.7 | 0
+Mean times per exit: 0.09515 ms | 0.3133 ms | 0.5722 ms
+Accuracies per exit (for all dataset): 88.9267%  | 92.8619%  | 94.7125% 
+Rate of exit chosen: 88.51% | 5.92% | 5.57%
+Accuracy per exit (when chosen): 94.56% | 95.44% | 90.16%
+Overall Accuracy: 94.37%
+Mean time: 0.1346 ms
+2016-06: Accuracy: 89.60 | 92.89 | 92.42
+Thresholds: 0.7 | 0.7 | 0
+Mean times per exit: 0.1062 ms | 0.3303 ms | 0.6028 ms
+Accuracies per exit (for all dataset): 89.6025%  | 92.8881%  | 92.4233% 
+Rate of exit chosen: 87.53% | 5.82% | 6.65%
+Accuracy per exit (when chosen): 94.68% | 94.77% | 63.47%
+Overall Accuracy: 92.61%
+Mean time: 0.1523 ms
+2016-07: Accuracy: 91.45 | 91.61 | 92.60
+Thresholds: 0.7 | 0.7 | 0
+Mean times per exit: 0.09997 ms | 0.3125 ms | 0.5686 ms
+Accuracies per exit (for all dataset): 91.4524%  | 91.6128%  | 92.5959% 
+Rate of exit chosen: 87.50% | 7.64% | 4.86%
+Accuracy per exit (when chosen): 94.38% | 87.78% | 65.79%
+Overall Accuracy: 92.49%
+Mean time: 0.1390 ms
+2016-08: Accuracy: 89.92 | 91.61 | 93.74
+Thresholds: 0.7 | 0.7 | 0
+Mean times per exit: 0.1818 ms | 0.6809 ms | 1.359 ms
+Accuracies per exit (for all dataset): 89.9241%  | 91.6058%  | 93.7386% 
+Rate of exit chosen: 91.96% | 3.22% | 4.82%
+Accuracy per exit (when chosen): 94.13% | 88.09% | 93.02%
+Overall Accuracy: 93.89%
+Mean time: 0.2546 ms
+2016-09: Accuracy: 89.86 | 91.59 | 91.79
+Thresholds: 0.7 | 0.7 | 0
+Mean times per exit: 0.1074 ms | 0.3412 ms | 0.6327 ms
+Accuracies per exit (for all dataset): 89.8644%  | 91.5892%  | 91.7912% 
+Rate of exit chosen: 93.51% | 3.29% | 3.20%
+Accuracy per exit (when chosen): 92.35% | 92.00% | 81.39%
+Overall Accuracy: 91.99%
+Mean time: 0.1319 ms
+2016-10: Accuracy: 84.70 | 86.02 | 87.85
+Thresholds: 0.7 | 0.7 | 0
+Mean times per exit: 0.0956 ms | 0.2941 ms | 0.5344 ms
+Accuracies per exit (for all dataset): 84.7031%  | 86.0234%  | 87.8484% 
+Rate of exit chosen: 92.53% | 3.23% | 4.24%
+Accuracy per exit (when chosen): 88.17% | 84.77% | 79.01%
+Overall Accuracy: 87.67%
+Mean time: 0.1206 ms
+2016-11: Accuracy: 78.78 | 80.16 | 81.05
+Thresholds: 0.7 | 0.7 | 0
+Mean times per exit: 0.09731 ms | 0.3062 ms | 0.5768 ms
+Accuracies per exit (for all dataset): 78.7785%  | 80.1552%  | 81.0471% 
+Rate of exit chosen: 94.10% | 3.34% | 2.55%
+Accuracy per exit (when chosen): 80.41% | 90.46% | 81.85%
+Overall Accuracy: 80.79%
+Mean time: 0.1165 ms
+2016-12: Accuracy: 83.47 | 84.96 | 86.22
+Thresholds: 0.7 | 0.7 | 0
+Mean times per exit: 0.09705 ms | 0.3215 ms | 0.5901 ms
+Accuracies per exit (for all dataset): 83.4653%  | 84.9551%  | 86.216% 
+Rate of exit chosen: 93.26% | 3.38% | 3.36%
+Accuracy per exit (when chosen): 85.91% | 94.82% | 88.26%
+Overall Accuracy: 86.29%
+Mean time: 0.1212 ms
+2017-01: Accuracy: 85.65 | 86.82 | 88.12
+Thresholds: 0.7 | 0.7 | 0
+Mean times per exit: 0.0966 ms | 0.2986 ms | 0.5652 ms
+Accuracies per exit (for all dataset): 85.6541%  | 86.8159%  | 88.125% 
+Rate of exit chosen: 94.54% | 2.21% | 3.25%
+Accuracy per exit (when chosen): 87.78% | 88.45% | 89.85%
+Overall Accuracy: 87.86%
+Mean time: 0.1163 ms
+2017-02: Accuracy: 87.72 | 89.32 | 88.95
+Thresholds: 0.7 | 0.7 | 0
+Mean times per exit: 0.09714 ms | 0.3112 ms | 0.5685 ms
+Accuracies per exit (for all dataset): 87.7213%  | 89.3183%  | 88.9454% 
+Rate of exit chosen: 94.88% | 2.71% | 2.41%
+Accuracy per exit (when chosen): 89.59% | 88.37% | 78.59%
+Overall Accuracy: 89.29%
+Mean time: 0.1143 ms
+2017-03: Accuracy: 76.43 | 89.75 | 89.80
+Thresholds: 0.7 | 0.7 | 0
+Mean times per exit: 0.09886 ms | 0.3218 ms | 0.6043 ms
+Accuracies per exit (for all dataset): 76.4282%  | 89.7474%  | 89.7967% 
+Rate of exit chosen: 83.37% | 14.33% | 2.31%
+Accuracy per exit (when chosen): 88.81% | 98.24% | 85.85%
+Overall Accuracy: 90.09%
+Mean time: 0.1425 ms
+2017-04: Accuracy: 52.56 | 53.88 | 54.39
+Thresholds: 0.7 | 0.7 | 0
+Mean times per exit: 0.1053 ms | 0.3705 ms | 0.7 ms
+Accuracies per exit (for all dataset): 52.5631%  | 53.8809%  | 54.3929% 
+Rate of exit chosen: 93.67% | 2.47% | 3.86%
+Accuracy per exit (when chosen): 53.21% | 71.94% | 58.23%
+Overall Accuracy: 53.87%
+Mean time: 0.1348 ms
+2017-05: Accuracy: 85.09 | 87.21 | 88.06
+Thresholds: 0.7 | 0.7 | 0
+Mean times per exit: 0.2449 ms | 0.8921 ms | 1.805 ms
+Accuracies per exit (for all dataset): 85.0946%  | 87.2126%  | 88.0556% 
+Rate of exit chosen: 94.24% | 2.80% | 2.96%
+Accuracy per exit (when chosen): 88.15% | 85.25% | 83.43%
+Overall Accuracy: 87.93%
+Mean time: 0.3092 ms
+2017-06: Accuracy: 85.61 | 83.35 | 84.49
+Thresholds: 0.7 | 0.7 | 0
+Mean times per exit: 0.1108 ms | 0.3627 ms | 0.6925 ms
+Accuracies per exit (for all dataset): 85.6098%  | 83.3518%  | 84.4867% 
+Rate of exit chosen: 91.98% | 1.59% | 6.43%
+Accuracy per exit (when chosen): 87.50% | 82.02% | 48.81%
+Overall Accuracy: 84.92%
+Mean time: 0.1522 ms
+2017-07: Accuracy: 82.51 | 85.37 | 85.51
+Thresholds: 0.7 | 0.7 | 0
+Mean times per exit: 0.1014 ms | 0.3358 ms | 0.6411 ms
+Accuracies per exit (for all dataset): 82.514%  | 85.3708%  | 85.5096% 
+Rate of exit chosen: 91.22% | 3.88% | 4.90%
+Accuracy per exit (when chosen): 85.85% | 86.92% | 75.36%
+Overall Accuracy: 85.38%
+Mean time: 0.1370 ms
+2017-08: Accuracy: 78.77 | 82.34 | 84.63
+Thresholds: 0.7 | 0.7 | 0
+Mean times per exit: 0.09897 ms | 0.3449 ms | 0.6311 ms
+Accuracies per exit (for all dataset): 78.7663%  | 82.3412%  | 84.6256% 
+Rate of exit chosen: 92.07% | 2.92% | 5.01%
+Accuracy per exit (when chosen): 83.70% | 85.35% | 91.27%
+Overall Accuracy: 84.12%
+Mean time: 0.1328 ms
+2017-09: Accuracy: 87.73 | 89.42 | 91.53
+Thresholds: 0.7 | 0.7 | 0
+Mean times per exit: 0.09609 ms | 0.3087 ms | 0.5556 ms
+Accuracies per exit (for all dataset): 87.7347%  | 89.4206%  | 91.5335% 
+Rate of exit chosen: 92.21% | 3.40% | 4.39%
+Accuracy per exit (when chosen): 92.32% | 92.44% | 89.35%
+Overall Accuracy: 92.20%
+Mean time: 0.1235 ms
+2017-10: Accuracy: 61.87 | 64.38 | 64.56
+Thresholds: 0.7 | 0.7 | 0
+Mean times per exit: 0.09937 ms | 0.3056 ms | 0.5511 ms
+Accuracies per exit (for all dataset): 61.8686%  | 64.3782%  | 64.5588% 
+Rate of exit chosen: 94.00% | 2.32% | 3.68%
+Accuracy per exit (when chosen): 63.76% | 78.85% | 87.27%
+Overall Accuracy: 64.98%
+Mean time: 0.1208 ms
+2017-11: Accuracy: 84.53 | 87.03 | 86.36
+Thresholds: 0.7 | 0.7 | 0
+Mean times per exit: 0.09618 ms | 0.3358 ms | 0.6234 ms
+Accuracies per exit (for all dataset): 84.5269%  | 87.0308%  | 86.3566% 
+Rate of exit chosen: 93.83% | 2.82% | 3.35%
+Accuracy per exit (when chosen): 87.59% | 85.43% | 65.96%
+Overall Accuracy: 86.80%
+Mean time: 0.1206 ms
+2017-12: Accuracy: 80.83 | 82.32 | 84.30
+Thresholds: 0.7 | 0.7 | 0
+Mean times per exit: 0.09919 ms | 0.3177 ms | 0.5808 ms
+Accuracies per exit (for all dataset): 80.8339%  | 82.3245%  | 84.3032% 
+Rate of exit chosen: 93.53% | 1.48% | 4.99%
+Accuracy per exit (when chosen): 84.74% | 79.45% | 79.73%
+Overall Accuracy: 84.42%
+Mean time: 0.1265 ms
+2018-01: Accuracy: 66.87 | 72.60 | 68.69
+Thresholds: 0.7 | 0.7 | 0
+Mean times per exit: 0.09743 ms | 0.3058 ms | 0.5689 ms
+Accuracies per exit (for all dataset): 66.8719%  | 72.6038%  | 68.6886% 
+Rate of exit chosen: 92.54% | 4.22% | 3.24%
+Accuracy per exit (when chosen): 68.36% | 83.64% | 51.38%
+Overall Accuracy: 68.46%
+Mean time: 0.1215 ms
+2018-02: Accuracy: 61.82 | 63.78 | 64.03
+Thresholds: 0.7 | 0.7 | 0
+Mean times per exit: 0.1105 ms | 0.3503 ms | 0.6255 ms
+Accuracies per exit (for all dataset): 61.8228%  | 63.7785%  | 64.0286% 
+Rate of exit chosen: 94.95% | 2.34% | 2.72%
+Accuracy per exit (when chosen): 63.45% | 65.05% | 70.74%
+Overall Accuracy: 63.68%
+Mean time: 0.1301 ms
+2018-03: Accuracy: 84.45 | 86.06 | 87.43
+Thresholds: 0.7 | 0.7 | 0
+Mean times per exit: 0.2201 ms | 0.7848 ms | 1.612 ms
+Accuracies per exit (for all dataset): 84.4479%  | 86.057%  | 87.4296% 
+Rate of exit chosen: 94.91% | 2.31% | 2.77%
+Accuracy per exit (when chosen): 87.76% | 84.41% | 86.48%
+Overall Accuracy: 87.64%
+Mean time: 0.2718 ms
+2018-04: Accuracy: 66.45 | 68.18 | 68.88
+Thresholds: 0.7 | 0.7 | 0
+Mean times per exit: 0.1061 ms | 0.3235 ms | 0.5977 ms
+Accuracies per exit (for all dataset): 66.4535%  | 68.1801%  | 68.8794% 
+Rate of exit chosen: 95.89% | 1.47% | 2.64%
+Accuracy per exit (when chosen): 68.02% | 66.06% | 83.83%
+Overall Accuracy: 68.41%
+Mean time: 0.1223 ms
+2018-05: Accuracy: 81.33 | 83.14 | 83.64
+Thresholds: 0.7 | 0.7 | 0
+Mean times per exit: 0.09839 ms | 0.3134 ms | 0.5656 ms
+Accuracies per exit (for all dataset): 81.3321%  | 83.141%  | 83.6416% 
+Rate of exit chosen: 94.59% | 3.01% | 2.40%
+Accuracy per exit (when chosen): 84.08% | 83.49% | 78.59%
+Overall Accuracy: 83.93%
+Mean time: 0.1161 ms
+2018-06: Accuracy: 42.15 | 43.58 | 46.91
+Thresholds: 0.7 | 0.7 | 0
+Mean times per exit: 0.1039 ms | 0.3262 ms | 0.5975 ms
+Accuracies per exit (for all dataset): 42.1507%  | 43.582%  | 46.9072% 
+Rate of exit chosen: 92.31% | 1.91% | 5.78%
+Accuracy per exit (when chosen): 43.93% | 63.11% | 82.29%
+Overall Accuracy: 46.51%
+Mean time: 0.1367 ms
+2018-07: Accuracy: 60.13 | 61.81 | 61.95
+Thresholds: 0.7 | 0.7 | 0
+Mean times per exit: 0.0997 ms | 0.3157 ms | 0.5907 ms
+Accuracies per exit (for all dataset): 60.1321%  | 61.8131%  | 61.9537% 
+Rate of exit chosen: 95.65% | 1.98% | 2.37%
+Accuracy per exit (when chosen): 61.50% | 61.25% | 77.82%
+Overall Accuracy: 61.88%
+Mean time: 0.1156 ms
+2018-08: Accuracy: 56.56 | 60.14 | 60.39
+Thresholds: 0.7 | 0.7 | 0
+Mean times per exit: 0.1673 ms | 0.5758 ms | 1.114 ms
+Accuracies per exit (for all dataset): 56.5554%  | 60.1353%  | 60.3914% 
+Rate of exit chosen: 91.37% | 4.91% | 3.72%
+Accuracy per exit (when chosen): 58.95% | 84.16% | 83.08%
+Overall Accuracy: 61.09%
+Mean time: 0.2226 ms
+2018-09: Accuracy: 72.02 | 79.27 | 79.75
+Thresholds: 0.7 | 0.7 | 0
+Mean times per exit: 0.1103 ms | 0.3076 ms | 0.5553 ms
+Accuracies per exit (for all dataset): 72.0165%  | 79.2676%  | 79.7467% 
+Rate of exit chosen: 84.14% | 11.43% | 4.44%
+Accuracy per exit (when chosen): 79.16% | 93.22% | 74.20%
+Overall Accuracy: 80.55%
+Mean time: 0.1526 ms
+2018-10: Accuracy: 52.18 | 54.04 | 55.63
+Thresholds: 0.7 | 0.7 | 0
+Mean times per exit: 0.1002 ms | 0.326 ms | 0.5933 ms
+Accuracies per exit (for all dataset): 52.1806%  | 54.0448%  | 55.634% 
+Rate of exit chosen: 93.04% | 3.42% | 3.54%
+Accuracy per exit (when chosen): 53.65% | 75.64% | 76.30%
+Overall Accuracy: 55.20%
+Mean time: 0.1254 ms
+2018-11: Accuracy: 75.29 | 79.25 | 80.00
+Thresholds: 0.7 | 0.7 | 0
+Mean times per exit: 0.09594 ms | 0.3114 ms | 0.578 ms
+Accuracies per exit (for all dataset): 75.2938%  | 79.2479%  | 79.9996% 
+Rate of exit chosen: 89.83% | 6.25% | 3.91%
+Accuracy per exit (when chosen): 80.79% | 84.05% | 84.67%
+Overall Accuracy: 81.14%
+Mean time: 0.1283 ms
+2018-12: Accuracy: 58.77 | 68.19 | 82.31
+Thresholds: 0.7 | 0.7 | 0
+Mean times per exit: 0.1389 ms | 0.4642 ms | 0.9003 ms
+Accuracies per exit (for all dataset): 58.7678%  | 68.1932%  | 82.3087% 
+Rate of exit chosen: 77.87% | 7.32% | 14.81%
+Accuracy per exit (when chosen): 66.84% | 92.01% | 97.82%
+Overall Accuracy: 73.27%
+Mean time: 0.2755 ms
+2019-01: Accuracy: 58.38 | 62.92 | 70.91
+Thresholds: 0.7 | 0.7 | 0
+Mean times per exit: 0.3394 ms | 0.6023 ms | 0.869 ms
+Accuracies per exit (for all dataset): 58.3828%  | 62.9243%  | 70.9144% 
+Rate of exit chosen: 85.79% | 4.89% | 9.32%
+Accuracy per exit (when chosen): 63.14% | 88.71% | 93.83%
+Overall Accuracy: 67.25%
+Mean time: 0.4016 ms
+2019-02: Accuracy: 53.17 | 57.43 | 67.15
+Thresholds: 0.7 | 0.7 | 0
+Mean times per exit: 0.1291 ms | 0.4282 ms | 0.8135 ms
+Accuracies per exit (for all dataset): 53.1663%  | 57.4302%  | 67.1483% 
+Rate of exit chosen: 81.20% | 6.61% | 12.19%
+Accuracy per exit (when chosen): 57.88% | 86.13% | 91.67%
+Overall Accuracy: 63.86%
+Mean time: 0.2323 ms
+2019-03: Accuracy: 45.34 | 48.30 | 54.71
+Thresholds: 0.7 | 0.7 | 0
+Mean times per exit: 0.1013 ms | 0.3119 ms | 0.5632 ms
+Accuracies per exit (for all dataset): 45.3441%  | 48.2995%  | 54.7134% 
+Rate of exit chosen: 83.78% | 6.55% | 9.67%
+Accuracy per exit (when chosen): 46.63% | 82.39% | 83.10%
+Overall Accuracy: 52.50%
+Mean time: 0.1597 ms
+2019-04: Accuracy: 62.64 | 63.45 | 71.61
+Thresholds: 0.7 | 0.7 | 0
+Mean times per exit: 0.1542 ms | 0.5301 ms | 1.042 ms
+Accuracies per exit (for all dataset): 62.6427%  | 63.4502%  | 71.6102% 
+Rate of exit chosen: 80.74% | 7.77% | 11.49%
+Accuracy per exit (when chosen): 68.16% | 84.38% | 83.81%
+Overall Accuracy: 71.22%
+Mean time: 0.2854 ms
+2019-05: Accuracy: 73.28 | 75.40 | 78.90
+Thresholds: 0.7 | 0.7 | 0
+Mean times per exit: 0.101 ms | 0.3214 ms | 0.5748 ms
+Accuracies per exit (for all dataset): 73.2824%  | 75.4015%  | 78.8987% 
+Rate of exit chosen: 86.68% | 4.94% | 8.38%
+Accuracy per exit (when chosen): 77.26% | 90.19% | 70.32%
+Overall Accuracy: 77.32%
+Mean time: 0.1516 ms
+2019-06: Accuracy: 71.61 | 74.35 | 74.89
+Thresholds: 0.7 | 0.7 | 0
+Mean times per exit: 0.09568 ms | 0.3231 ms | 0.576 ms
+Accuracies per exit (for all dataset): 71.6053%  | 74.3491%  | 74.8925% 
+Rate of exit chosen: 86.71% | 9.47% | 3.82%
+Accuracy per exit (when chosen): 73.82% | 89.38% | 60.69%
+Overall Accuracy: 74.79%
+Mean time: 0.1356 ms
+2019-07: Accuracy: 57.06 | 56.14 | 59.61
+Thresholds: 0.7 | 0.7 | 0
+Mean times per exit: 0.1251 ms | 0.4526 ms | 0.8977 ms
+Accuracies per exit (for all dataset): 57.0637%  | 56.1381%  | 59.6091% 
+Rate of exit chosen: 89.56% | 4.81% | 5.62%
+Accuracy per exit (when chosen): 57.40% | 75.92% | 74.41%
+Overall Accuracy: 59.25%
+Mean time: 0.1843 ms
+2019-08: Accuracy: 77.24 | 75.50 | 77.21
+Thresholds: 0.7 | 0.7 | 0
+Mean times per exit: 0.1214 ms | 0.3988 ms | 0.7582 ms
+Accuracies per exit (for all dataset): 77.2407%  | 75.5027%  | 77.2117% 
+Rate of exit chosen: 91.63% | 4.19% | 4.18%
+Accuracy per exit (when chosen): 77.71% | 76.93% | 77.67%
+Overall Accuracy: 77.68%
+Mean time: 0.1597 ms
+2019-09: Accuracy: 60.37 | 60.86 | 61.77
+Thresholds: 0.7 | 0.7 | 0
+Mean times per exit: 0.1094 ms | 0.3403 ms | 0.618 ms
+Accuracies per exit (for all dataset): 60.3712%  | 60.863%  | 61.772% 
+Rate of exit chosen: 94.00% | 2.89% | 3.10%
+Accuracy per exit (when chosen): 60.76% | 73.75% | 69.33%
+Overall Accuracy: 61.41%
+Mean time: 0.1319 ms
+2019-10: Accuracy: 58.20 | 58.50 | 60.23
+Thresholds: 0.7 | 0.7 | 0
+Mean times per exit: 0.1397 ms | 0.4811 ms | 0.9544 ms
+Accuracies per exit (for all dataset): 58.1996%  | 58.5006%  | 60.2304% 
+Rate of exit chosen: 91.30% | 4.66% | 4.04%
+Accuracy per exit (when chosen): 58.05% | 80.41% | 76.73%
+Overall Accuracy: 59.85%
+Mean time: 0.1885 ms
+2019-11: Accuracy: 56.89 | 58.47 | 59.57
+Thresholds: 0.7 | 0.7 | 0
+Mean times per exit: 0.1064 ms | 0.3232 ms | 0.5992 ms
+Accuracies per exit (for all dataset): 56.894%  | 58.4698%  | 59.572% 
+Rate of exit chosen: 91.01% | 5.99% | 3.00%
+Accuracy per exit (when chosen): 57.09% | 83.37% | 64.49%
+Overall Accuracy: 58.88%
+Mean time: 0.1342 ms
+2019-12: Accuracy: 73.87 | 75.75 | 77.03
+Thresholds: 0.7 | 0.7 | 0
+Mean times per exit: 0.1227 ms | 0.4073 ms | 0.7773 ms
+Accuracies per exit (for all dataset): 73.8676%  | 75.7504%  | 77.0345% 
+Rate of exit chosen: 89.27% | 6.29% | 4.44%
+Accuracy per exit (when chosen): 76.66% | 87.47% | 68.02%
+Overall Accuracy: 76.96%
+Mean time: 0.1696 ms

@@ -1,0 +1,6246 @@
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([9]), Exit: main
+tensor([9])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([8]), Exit: main
+tensor([8])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([4]), Exit: main
+tensor([4])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([9]), Exit: main
+tensor([9])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([9]), Exit: main
+tensor([9])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([2]), Exit: main
+tensor([2])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([5]), Exit: main
+tensor([5])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([8]), Exit: main
+tensor([8])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([4]), Exit: main
+tensor([4])
+Predicted: 0, Correct: tensor([9]), Exit: main
+tensor([9])
+Predicted: 0, Correct: tensor([3]), Exit: main
+tensor([3])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([8]), Exit: main
+tensor([8])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([3]), Exit: main
+tensor([3])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([8]), Exit: main
+tensor([8])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([4]), Exit: main
+tensor([4])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([9]), Exit: main
+tensor([9])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([2]), Exit: main
+tensor([2])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([2]), Exit: main
+tensor([2])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([3]), Exit: main
+tensor([3])
+Predicted: 0, Correct: tensor([2]), Exit: main
+tensor([2])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([8]), Exit: main
+tensor([8])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([4]), Exit: main
+tensor([4])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([7]), Exit: main
+tensor([7])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([3]), Exit: main
+tensor([3])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([4]), Exit: main
+tensor([4])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([6]), Exit: main
+tensor([6])
+Predicted: 0, Correct: tensor([6]), Exit: main
+tensor([6])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([9]), Exit: main
+tensor([9])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([4]), Exit: main
+tensor([4])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([9]), Exit: main
+tensor([9])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([3]), Exit: main
+tensor([3])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([5]), Exit: main
+tensor([5])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([7]), Exit: main
+tensor([7])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([8]), Exit: main
+tensor([8])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([5]), Exit: main
+tensor([5])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([9]), Exit: main
+tensor([9])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([4]), Exit: main
+tensor([4])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([7]), Exit: main
+tensor([7])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([7]), Exit: main
+tensor([7])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([4]), Exit: main
+tensor([4])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([9]), Exit: main
+tensor([9])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([0]), Exit: main
+tensor([0])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([3]), Exit: main
+tensor([3])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([9]), Exit: main
+tensor([9])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([7]), Exit: main
+tensor([7])
+Predicted: 0, Correct: tensor([8]), Exit: main
+tensor([8])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([8]), Exit: main
+tensor([8])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([2]), Exit: main
+tensor([2])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([2]), Exit: main
+tensor([2])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([7]), Exit: main
+tensor([7])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([4]), Exit: main
+tensor([4])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([7]), Exit: main
+tensor([7])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([4]), Exit: main
+tensor([4])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([0]), Exit: main
+tensor([0])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([9]), Exit: main
+tensor([9])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([5]), Exit: main
+tensor([5])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([9]), Exit: main
+tensor([9])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([5]), Exit: main
+tensor([5])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([9]), Exit: main
+tensor([9])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([9]), Exit: main
+tensor([9])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([9]), Exit: main
+tensor([9])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([4]), Exit: main
+tensor([4])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([2]), Exit: main
+tensor([2])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([9]), Exit: main
+tensor([9])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([7]), Exit: main
+tensor([7])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([0]), Exit: main
+tensor([0])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([9]), Exit: main
+tensor([9])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([9]), Exit: main
+tensor([9])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([5]), Exit: main
+tensor([5])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([9]), Exit: main
+tensor([9])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([4]), Exit: main
+tensor([4])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([5]), Exit: main
+tensor([5])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([4]), Exit: main
+tensor([4])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([3]), Exit: main
+tensor([3])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([6]), Exit: main
+tensor([6])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([6]), Exit: main
+tensor([6])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([9]), Exit: main
+tensor([9])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([9]), Exit: ee1
+tensor([9])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([0]), Exit: ee1
+tensor([0])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([1]), Exit: ee1
+tensor([1])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])
+Predicted: 0, Correct: tensor([8]), Exit: ee1
+tensor([8])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([4]), Exit: ee1
+tensor([4])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([2]), Exit: ee1
+tensor([2])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([5]), Exit: ee1
+tensor([5])
+Predicted: 0, Correct: tensor([3]), Exit: ee1
+tensor([3])
+Predicted: 0, Correct: tensor([6]), Exit: ee1
+tensor([6])
+Predicted: 0, Correct: tensor([7]), Exit: ee1
+tensor([7])

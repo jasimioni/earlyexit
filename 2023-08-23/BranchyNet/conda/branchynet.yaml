@@ -1,0 +1,8 @@
+name: branchynet
+channels:
+  - defaults
+dependencies:
+  - requests
+  - matplotlib
+  - pytorch
+  - torchvision
