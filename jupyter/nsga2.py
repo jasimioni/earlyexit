@@ -225,4 +225,4 @@ print(f"Processing {network}")
 
 X, F, min_time, max_time = process(network, '2016_0[23]')
 with open(f'{network}_x_f_2016_23.sav', 'wb') as f:
-    pickle.dump([ X, F, min_time, max_time ], f)
+    pickle.dump([ X, F, min_time, max_time, problem.accuracy_e1, problem.acceptance_e1, problem.accuracy_e2, problem.acceptance_e2 ], f)
