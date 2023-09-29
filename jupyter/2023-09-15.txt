@@ -1,0 +1,59 @@
+Processados os dados consolidados das redes alexnet e mobilenet:
+
+./nsga2.py alexnet | tee alexnet.log
+./nsga2.py mobilenet | tee mobilenet.log
+
+Plotar 3D (superfície):
+3dplot.py
+ - Escolher qual arquivo abrir
+ - Habilitar o filtro > 85%
+ - Mostrar plot3D
+
+plot_best_alexnet.ipynb
+plot_best_mobilenet.ipynb
+
+- Remover pontos dominados
+=> Não há pontos dominados (3dplot_remover_dominados.py) - validei com a população de 10mil
+
+- Plotar apenas 2016
+- Arrumar o plot (não lembro o que era pra fazer)
+=> plot_2016.ipynb
+
+- Mudar a cor do Scatter por parâmetro
+=> 3dplot_remover_dominados.py
+
+- Reler Branchynet
+=> Usam também LeNet (Não a GoogleNet que possui camadas Inception) 
+   Não tem essa rede no código do PyTorch (mas tem exemplos de implementação from scratch)
+=> Comentam sobre regularização no treinamento em conjunto (usando os pesos) - nunca funcionou no meu código
+=> Compara CPU x GPU
+=> Considerações:
+    - (1) locations of branch points, 
+    - (2) structure of a branch (weight layers, fully-connected layers, etc.) as well as its size and depth, 
+    - (3) classifier at the exit point of a branch, 
+    - (4) exit criteria for a branch and the associated test cost against the criteria, and 
+    - (5) training of classifiers at exit points of all branches.
+
+=> Inicializou pesos com o treinamento da rede sem as saídas (pre treino) 
+     - Meus testes com pre treino não mostraram diferença
+
+=> Onde o nosso adiciona elementos:
+    - Consideramos o grau de confiança por classe (normal / attack)
+    - Definimos grau de confiança por saída (podendo descartar incertezas)
+    - Usamos NSGA para definir ponto de operação
+
+=> Hiperparâmetros
+    - Pesos do joint-training (inefetivo nos meus testes)
+    - nível de confiança
+
+=> Caching
+    - Faz uma pequena observação sobre eficiência de cache (não estou familiar com o uso de cache em NNs)
+
+https://arxiv.org/pdf/1709.01686.pdf
+
+2023-09-22
+
+- Acuracia / Aceite ou
+- Fixar Aceite - Trabalhar Acuracia / Tempo - Contraint + Objetivos
+- Tempo de inferência tem relação com o tempo por isso só 2 Objetivos
+- Overleaf
